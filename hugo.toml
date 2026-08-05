@@ -1,0 +1,22 @@
+baseURL = "https://a00573442.github.io/"
+languageCode = "es-mx"
+title = "IDS Periódico"
+theme = "congo"
+
+paginationPageSize = 10
+
+[params]
+  description = "Periódico escolar"
+  defaultAppearance = "light"
+  colorScheme = "blue"
+
+[menu]
+  [[menu.main]]
+    name = "Inicio"
+    pageRef = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Noticias"
+    pageRef = "/posts"
+    weight = 20
+    
