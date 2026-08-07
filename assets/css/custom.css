@@ -485,9 +485,14 @@ main { display: block; }
 .instagram-section { background: var(--gris-claro); }
 
 .instagram-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 6px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.instagram-grid a {
+  width: 260px;
 }
 
 .instagram-grid a {
@@ -509,9 +514,6 @@ main { display: block; }
 
 .instagram-grid a:hover .ph { transform: scale(1.08); }
 
-@media (max-width: 900px) {
-  .instagram-grid { grid-template-columns: repeat(3, 1fr); }
-}
 
 .instagram-cta {
   text-align: center;

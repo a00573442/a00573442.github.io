@@ -1,15 +1,10 @@
 username: seids.mty
 profile_url: "https://www.instagram.com/seids.mty/"
 posts:
-  - image: ""
-    link: ""
-  - image: ""
-    link: ""
-  - image: ""
-    link: ""
-  - image: ""
-    link: ""
-  - image: ""
-    link: ""
-  - image: ""
-    link: ""
+  - image: "/images/instagram/post1.jpg"
+    link: "https://www.instagram.com/p/DaQnOilkSlE/"
+  - image: "/images/instagram/post2.jpg"
+    link: "https://www.instagram.com/p/DbEz3G6g5_8/"
+  - image: "/images/instagram/post3.jpg"
+    link: "https://www.instagram.com/p/DY4la9BDtw6/"
+    

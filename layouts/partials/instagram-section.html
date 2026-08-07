@@ -4,7 +4,7 @@
   <h2 class="section-title" style="justify-content:center;border-bottom:none;">Síguenos en Instagram</h2>
   <p style="text-align:center;color:#666;margin-top:-1rem;margin-bottom:2.5rem;">@{{ $insta.username }}</p>
   <div class="instagram-grid">
-    {{ range first 6 $insta.posts }}
+    {{ range first 3 $insta.posts }}
       <a href="{{ .link | default $insta.profile_url }}" target="_blank" rel="noopener">
         <div class="ph" style="{{ if .image }}background-image:url('{{ .image }}');{{ end }}"></div>
       </a>
