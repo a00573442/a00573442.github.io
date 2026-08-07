@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Noticias on El Semillero</title>
+		<link>http://localhost:1313/noticias/</link>
+		<description>Recent content in Noticias on El Semillero</description>
+		<generator>Hugo</generator>
+		<language>es-mx</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/noticias/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>El Tec instala nuevos paneles solares en el campus</title>
+				<link>http://localhost:1313/noticias/ejemplo-noticia/</link>
+				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/noticias/ejemplo-noticia/</guid>
+				<description>&lt;p&gt;El Tecnológico de Monterrey anunció la instalación de un nuevo sistema fotovoltaico en el campus, como parte de su estrategia de sostenibilidad institucional.&lt;/p&gt;&#xA;&lt;p&gt;El proyecto busca reducir la huella de carbono del campus y servir como caso de estudio para estudiantes de Ingeniería en Desarrollo Sustentable.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

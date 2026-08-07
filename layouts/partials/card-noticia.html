@@ -1,0 +1,9 @@
+<a href="{{ .RelPermalink }}" class="card-noticia">
+  <div class="img" style="background-image:url('{{ .Params.imagen | default "/images/placeholder.jpg" }}');"></div>
+  <div class="body">
+    <div class="categoria">{{ .Params.categoria | default "Sostenibilidad" }}</div>
+    <h3>{{ .Title }}</h3>
+    <p class="resumen">{{ .Params.resumen | default .Summary }}</p>
+    <div class="meta">{{ .Date.Format "2 Jan 2006" }} &middot; {{ .Params.autor | default "Redacción" }}</div>
+  </div>
+</a>

@@ -4,22 +4,106 @@
   
     
       <url>
+            <loc>http://localhost:1313/about/</loc>
+            <lastmod>2026-08-05T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/contact/</loc>
+            <lastmod>2026-08-05T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
             <loc>http://localhost:1313/</loc>
-            <lastmod>2026-08-05T15:06:12-06:00</lastmod>
+            <lastmod>2026-08-05T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>http://localhost:1313/posts/mi-primer-articulo/</loc>
-            <lastmod>2026-08-05T15:06:12-06:00</lastmod>
+            <lastmod>2026-08-05T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>http://localhost:1313/posts/</loc>
-            <lastmod>2026-08-05T15:06:12-06:00</lastmod>
+            <lastmod>2026-08-05T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/curiosidades/economia-circular/</loc>
+            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/practicas/ejemplo-vacante/</loc>
+            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/curiosidades/</loc>
+            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/investigaciones/ejemplo-investigacion/</loc>
+            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/noticias/ejemplo-noticia/</loc>
+            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/entrevistas/ejemplo-entrevista/</loc>
+            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/entrevistas/</loc>
+            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/investigaciones/</loc>
+            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/noticias/</loc>
+            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/practicas/</loc>
+            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
           </url>
     
   

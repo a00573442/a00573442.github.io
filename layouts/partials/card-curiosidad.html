@@ -1,0 +1,5 @@
+<a href="{{ .RelPermalink }}" class="card-curiosidad">
+  <div class="icono">{{ .Params.icono | default "🌱" }}</div>
+  <h4>{{ .Title }}</h4>
+  <p>{{ .Params.resumen | default .Summary }}</p>
+</a>

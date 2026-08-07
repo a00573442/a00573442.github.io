@@ -1,0 +1,13 @@
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="{{ "/" | relURL }}" style="text-decoration:none;"><span class="site-title">{{ site.Title }}</span></a>
+    <nav class="site-nav">
+      {{ $current := $.RelPermalink }}
+      {{ range site.Menus.main.ByWeight }}
+        {{ $itemURL := .URL | relURL }}
+        {{ $isActive := or (eq $current $itemURL) (and (ne $itemURL "/") (strings.HasPrefix $current $itemURL)) }}
+        <a href="{{ $itemURL }}" class="{{ if $isActive }}active{{ end }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

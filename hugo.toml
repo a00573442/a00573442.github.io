@@ -1,22 +1,59 @@
 baseURL = "https://a00573442.github.io/"
 languageCode = "es-mx"
-title = "IDS Periódico"
+title = "El Semillero"
 theme = "congo"
-
-paginationPageSize = 10
+paginationPageSize = 12
 
 [params]
-  description = "Periódico escolar"
-  defaultAppearance = "light"
-  colorScheme = "blue"
+  description = "El periódico de Ingeniería en Desarrollo Sustentable del Tecnológico de Monterrey."
+  subtitle = "Sostenibilidad, innovación e investigación desde el Tec"
+  heroImage = "/images/hero.jpg"
 
-[menu]
-  [[menu.main]]
-    name = "Inicio"
-    pageRef = "/"
-    weight = 10
-  [[menu.main]]
-    name = "Noticias"
-    pageRef = "/posts"
-    weight = 20
-    
+[taxonomies]
+  category = "categorias"
+  tag = "tags"
+
+[[menu.main]]
+  name = "Inicio"
+  pageRef = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "Noticias"
+  pageRef = "/noticias"
+  weight = 20
+
+[[menu.main]]
+  name = "Aprendizaje"
+  pageRef = "/curiosidades"
+  weight = 30
+
+[[menu.main]]
+  name = "Prácticas y Trabajo"
+  pageRef = "/practicas"
+  weight = 40
+
+[[menu.main]]
+  name = "Investigaciones"
+  pageRef = "/investigaciones"
+  weight = 50
+
+[[menu.main]]
+  name = "Entrevistas"
+  pageRef = "/entrevistas"
+  weight = 60
+
+[[menu.main]]
+  name = "Acerca de"
+  pageRef = "/about"
+  weight = 70
+
+[[menu.main]]
+  name = "Contacto"
+  pageRef = "/contact"
+  weight = 80
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,11 @@
+<a href="{{ .RelPermalink }}" class="card-investigacion">
+  <div class="lab">{{ .Params.laboratorio }}</div>
+  <h4>{{ .Title }}</h4>
+  <div class="investigador">{{ .Params.investigador }}</div>
+  <p class="resumen">{{ .Params.resumen | default .Summary }}</p>
+  {{ with .Params.keywords }}
+  <div class="keywords">
+    {{ range . }}<span>{{ . }}</span>{{ end }}
+  </div>
+  {{ end }}
+</a>

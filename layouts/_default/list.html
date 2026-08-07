@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="section page-offset reveal" style="padding-top:2.5rem;">
+  <h2 class="section-title" style="margin-bottom:2.5rem;">{{ .Title }}</h2>
+
+  {{ if .RegularPages }}
+    {{ if eq .Section "noticias" }}
+      <div class="grid grid-3">
+        {{ range .RegularPages.ByDate.Reverse }}{{ partial "card-noticia.html" . }}{{ end }}
+      </div>
+    {{ else if eq .Section "curiosidades" }}
+      <div class="grid grid-4">
+        {{ range .RegularPages.ByDate.Reverse }}{{ partial "card-curiosidad.html" . }}{{ end }}
+      </div>
+    {{ else if eq .Section "practicas" }}
+      {{ range .RegularPages.ByDate.Reverse }}{{ partial "card-practica.html" . }}{{ end }}
+    {{ else if eq .Section "investigaciones" }}
+      <div class="grid grid-3">
+        {{ range .RegularPages.ByDate.Reverse }}{{ partial "card-investigacion.html" . }}{{ end }}
+      </div>
+    {{ else if eq .Section "entrevistas" }}
+      <div class="grid grid-4">
+        {{ range .RegularPages.ByDate.Reverse }}{{ partial "card-entrevista.html" . }}{{ end }}
+      </div>
+    {{ else }}
+      <ul>
+        {{ range .RegularPages.ByDate.Reverse }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  {{ else }}
+    <p class="empty-state">Todavía no hay contenido en esta sección.</p>
+  {{ end }}
+</section>
+{{ end }}

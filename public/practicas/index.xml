@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Prácticas y Trabajo on El Semillero</title>
+		<link>http://localhost:1313/practicas/</link>
+		<description>Recent content in Prácticas y Trabajo on El Semillero</description>
+		<generator>Hugo</generator>
+		<language>es-mx</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/practicas/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Analista de Sostenibilidad Junior</title>
+				<link>http://localhost:1313/practicas/ejemplo-vacante/</link>
+				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/practicas/ejemplo-vacante/</guid>
+				<description>&lt;p&gt;Vacante de práctica profesional en el área de sostenibilidad corporativa.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

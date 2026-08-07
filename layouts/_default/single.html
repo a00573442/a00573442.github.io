@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="article-single page-offset reveal">
+  <div class="eyebrow">{{ .Params.categoria | default (.Section | title) }}</div>
+  <h1>{{ .Title }}</h1>
+  <div class="meta">
+    {{ .Date.Format "2 January 2006" }}
+    {{ with .Params.autor }} &middot; Por {{ . }}{{ end }}
+    {{ with .Params.investigador }} &middot; {{ . }}{{ end }}
+  </div>
+  {{ with .Params.imagen }}
+    <img src="{{ . }}" alt="{{ $.Title }}" style="width:100%;border-radius:6px;margin-bottom:2rem;">
+  {{ end }}
+  <div class="content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

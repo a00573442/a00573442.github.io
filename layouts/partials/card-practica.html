@@ -1,0 +1,8 @@
+<div class="card-practica">
+  <div class="info">
+    <div class="empresa">{{ .Params.empresa }}</div>
+    <h4>{{ .Params.puesto | default .Title }}</h4>
+    <div class="detalles">{{ .Params.ubicacion }} &middot; {{ .Params.modalidad }} &middot; {{ .Date.Format "2 Jan 2006" }}</div>
+  </div>
+  <a class="aplicar" href="{{ .Params.link | default "#" }}" target="_blank" rel="noopener">Aplicar</a>
+</div>

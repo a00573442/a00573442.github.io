@@ -1,0 +1,6 @@
+<a href="{{ .RelPermalink }}" class="card-entrevista">
+  <div class="foto" style="background-image:url('{{ .Params.foto | default "/images/placeholder.jpg" }}');"></div>
+  <h4>{{ .Params.nombre | default .Title }}</h4>
+  <div class="cargo">{{ .Params.cargo }}</div>
+  <p class="cita">&ldquo;{{ .Params.extracto }}&rdquo;</p>
+</a>

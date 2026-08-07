@@ -1,0 +1,93 @@
+{{ define "main" }}
+
+<section class="hero">
+  <div class="hero-slide active" data-slide="0" style="background-image:url('/images/hero/Diseño sin título.jpg')"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>{{ site.Title }}</h1>
+    <p class="subtitle">{{ site.Params.subtitle }}</p>
+    <a href="{{ "/noticias" | relURL }}" class="btn">Explorar</a>
+  </div>
+  <div class="hero-scroll-cue"></div>
+</section>
+
+{{ $noticias := where site.RegularPages "Section" "noticias" }}
+{{ $curiosidades := where site.RegularPages "Section" "curiosidades" }}
+{{ $practicas := where site.RegularPages "Section" "practicas" }}
+{{ $investigaciones := where site.RegularPages "Section" "investigaciones" }}
+{{ $entrevistas := where site.RegularPages "Section" "entrevistas" }}
+
+<!-- NOTICIAS -->
+<section class="section reveal">
+  <h2 class="section-title">Noticias de sostenibilidad <a class="ver-todo" href="{{ "/noticias" | relURL }}">Ver todo →</a></h2>
+  {{ if $noticias }}
+  <div class="grid grid-3">
+    {{ range first 3 $noticias.ByDate.Reverse }}
+      {{ partial "card-noticia.html" . }}
+    {{ end }}
+  </div>
+  {{ else }}
+    <p class="empty-state">Aún no hay noticias publicadas.</p>
+  {{ end }}
+</section>
+
+<!-- CURIOSIDADES -->
+<section class="section section-alt reveal">
+  {{ partial "deco-leaf.html" "deco-tl" }}
+  {{ partial "deco-leaf.html" "deco-br" }}
+  <h2 class="section-title">Aprendizaje y curiosidades <a class="ver-todo" href="{{ "/curiosidades" | relURL }}">Ver todo →</a></h2>
+  {{ if $curiosidades }}
+  <div class="grid grid-4">
+    {{ range first 4 $curiosidades.ByDate.Reverse }}
+      {{ partial "card-curiosidad.html" . }}
+    {{ end }}
+  </div>
+  {{ else }}
+    <p class="empty-state">Aún no hay contenido educativo publicado.</p>
+  {{ end }}
+</section>
+
+<!-- PRACTICAS -->
+<section class="section reveal">
+  <h2 class="section-title">Prácticas y trabajo <a class="ver-todo" href="{{ "/practicas" | relURL }}">Ver todo →</a></h2>
+  {{ if $practicas }}
+    {{ range first 3 $practicas.ByDate.Reverse }}
+      {{ partial "card-practica.html" . }}
+    {{ end }}
+  {{ else }}
+    <p class="empty-state">Aún no hay ofertas publicadas.</p>
+  {{ end }}
+</section>
+
+<!-- INVESTIGACIONES -->
+<section class="section section-alt reveal">
+  <h2 class="section-title">Investigaciones de la facultad <a class="ver-todo" href="{{ "/investigaciones" | relURL }}">Ver todo →</a></h2>
+  {{ if $investigaciones }}
+  <div class="grid grid-3">
+    {{ range first 3 $investigaciones.ByDate.Reverse }}
+      {{ partial "card-investigacion.html" . }}
+    {{ end }}
+  </div>
+  {{ else }}
+    <p class="empty-state">Aún no hay investigaciones publicadas.</p>
+  {{ end }}
+</section>
+
+<!-- ENTREVISTAS -->
+<section class="section reveal">
+  <h2 class="section-title">Entrevistas <a class="ver-todo" href="{{ "/entrevistas" | relURL }}">Ver todo →</a></h2>
+  {{ if $entrevistas }}
+  <div class="grid grid-4">
+    {{ range first 4 $entrevistas.ByDate.Reverse }}
+      {{ partial "card-entrevista.html" . }}
+    {{ end }}
+  </div>
+  {{ else }}
+    <p class="empty-state">Aún no hay entrevistas publicadas.</p>
+  {{ end }}
+</section>
+
+{{ partial "instagram-section.html" . }}
+{{ partial "newsletter.html" . }}
+
+{{ end }}
