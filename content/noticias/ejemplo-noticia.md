@@ -5,7 +5,7 @@ draft = false
 categoria = 'Energía'
 autor = 'Redacción El Semillero'
 resumen = 'El campus suma 500 kWp de capacidad fotovoltaica como parte de su plan de carbono neutralidad para 2030.'
-imagen = ''
+imagen = '/images/noticias/articulo1.jpg'
 +++
 
 El Tecnológico de Monterrey anunció la instalación de un nuevo sistema fotovoltaico en el campus, como parte de su estrategia de sostenibilidad institucional.
