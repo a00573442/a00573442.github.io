@@ -5,8 +5,8 @@ theme = "congo"
 paginationPageSize = 12
 
 [params]
-  description = "El periódico de Ingeniería en Desarrollo Sustentable del Tecnológico de Monterrey."
-  subtitle = "Sostenibilidad, innovación e investigación desde el Tec"
+  description = "Periódico digital de sostenibilidad, innovación e investigación del Tecnológico de Monterrey."
+  subtitle = "Periodismo universitario sobre sostenibilidad e innovación, escrito por quienes construyen el futuro del campus."
   heroImage = "/images/hero.jpg"
 
 [taxonomies]
@@ -19,39 +19,62 @@ paginationPageSize = 12
   weight = 10
 
 [[menu.main]]
+  name = "Bitácora"
+  pageRef = "/bitacora"
+  weight = 15
+
+[[menu.main]]
+  name = "Contenido"
+  identifier = "contenido"
+  weight = 20
+  url = "#"
+
+[[menu.main]]
   name = "Noticias"
   pageRef = "/noticias"
-  weight = 20
+  parent = "contenido"
+  weight = 21
 
 [[menu.main]]
   name = "Aprendizaje"
   pageRef = "/curiosidades"
-  weight = 30
-
-[[menu.main]]
-  name = "Prácticas y Trabajo"
-  pageRef = "/practicas"
-  weight = 40
+  parent = "contenido"
+  weight = 22
 
 [[menu.main]]
   name = "Investigaciones"
   pageRef = "/investigaciones"
-  weight = 50
+  parent = "contenido"
+  weight = 23
 
 [[menu.main]]
   name = "Entrevistas"
   pageRef = "/entrevistas"
-  weight = 60
+  parent = "contenido"
+  weight = 24
+
+[[menu.main]]
+  name = "Prácticas y Trabajo"
+  pageRef = "/practicas"
+  weight = 30
+
+[[menu.main]]
+  name = "Proyecto"
+  identifier = "proyecto"
+  weight = 40
+  url = "#"
 
 [[menu.main]]
   name = "Acerca de"
   pageRef = "/about"
-  weight = 70
+  parent = "proyecto"
+  weight = 41
 
 [[menu.main]]
   name = "Contacto"
   pageRef = "/contact"
-  weight = 80
+  parent = "proyecto"
+  weight = 42
 
 [markup]
   [markup.goldmark]

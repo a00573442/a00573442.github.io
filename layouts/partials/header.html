@@ -1,13 +1,66 @@
 <header class="site-header" id="site-header">
   <div class="header-inner">
-    <a href="{{ "/" | relURL }}" style="text-decoration:none;"><span class="site-title">{{ site.Title }}</span></a>
-    <nav class="site-nav">
-      {{ $current := $.RelPermalink }}
+    <a href="{{ "/" | relURL }}" class="brand-link"><span class="site-title">{{ site.Title }}</span></a>
+
+    {{ $current := $.RelPermalink }}
+
+    <!-- Desktop nav -->
+    <nav class="site-nav" aria-label="Navegación principal">
       {{ range site.Menus.main.ByWeight }}
-        {{ $itemURL := .URL | relURL }}
-        {{ $isActive := or (eq $current $itemURL) (and (ne $itemURL "/") (strings.HasPrefix $current $itemURL)) }}
-        <a href="{{ $itemURL }}" class="{{ if $isActive }}active{{ end }}">{{ .Name }}</a>
+        {{ if not .Parent }}
+          {{ $children := .Children }}
+          {{ if $children }}
+            <div class="nav-dropdown">
+              <button class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret">▾</span></button>
+              <div class="nav-dropdown-menu">
+                {{ range $children.ByWeight }}
+                  {{ $itemURL := .URL | relURL }}
+                  {{ $isActive := or (eq $current $itemURL) (and (ne $itemURL "/") (strings.HasPrefix $current $itemURL)) }}
+                  <a href="{{ $itemURL }}" class="{{ if $isActive }}active{{ end }}">{{ .Name }}</a>
+                {{ end }}
+              </div>
+            </div>
+          {{ else }}
+            {{ $itemURL := .URL | relURL }}
+            {{ $isActive := or (eq $current $itemURL) (and (ne $itemURL "/") (strings.HasPrefix $current $itemURL)) }}
+            <a href="{{ $itemURL }}" class="{{ if $isActive }}active{{ end }}">{{ .Name }}</a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </nav>
+
+    <!-- Mobile hamburger button -->
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+  </div>
+
+  <!-- Mobile menu panel -->
+  <div class="mobile-menu" id="mobile-menu">
+    <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Cerrar menú">&times;</button>
+    <nav class="mobile-menu-nav" aria-label="Navegación móvil">
+      {{ range site.Menus.main.ByWeight }}
+        {{ if not .Parent }}
+          {{ $children := .Children }}
+          {{ if $children }}
+            <div class="mobile-nav-group">
+              <span class="mobile-nav-group-label">{{ .Name }}</span>
+              {{ range $children.ByWeight }}
+                {{ $itemURL := .URL | relURL }}
+                {{ $isActive := or (eq $current $itemURL) (and (ne $itemURL "/") (strings.HasPrefix $current $itemURL)) }}
+                <a href="{{ $itemURL }}" class="{{ if $isActive }}active{{ end }}">{{ .Name }}</a>
+              {{ end }}
+            </div>
+          {{ else }}
+            {{ $itemURL := .URL | relURL }}
+            {{ $isActive := or (eq $current $itemURL) (and (ne $itemURL "/") (strings.HasPrefix $current $itemURL)) }}
+            <a href="{{ $itemURL }}" class="mobile-nav-link {{ if $isActive }}active{{ end }}">{{ .Name }}</a>
+          {{ end }}
+        {{ end }}
       {{ end }}
     </nav>
   </div>
+  <div class="mobile-menu-backdrop" id="mobile-menu-backdrop"></div>
 </header>

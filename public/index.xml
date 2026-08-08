@@ -69,5 +69,12 @@
 				<guid>http://localhost:1313/entrevistas/ejemplo-entrevista/</guid>
 				<description>&lt;p&gt;Conversamos con el Dr. Carlos Ramírez sobre el futuro de la ingeniería sustentable en México y el papel de los estudiantes del Tec en la transición energética.&lt;/p&gt;</description>
 			</item>
+			<item>
+				<title>Bitácora</title>
+				<link>http://localhost:1313/bitacora/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/bitacora/</guid>
+				<description></description>
+			</item>
 	</channel>
 </rss>

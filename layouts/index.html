@@ -6,7 +6,10 @@
   <div class="hero-content">
     <h1>{{ site.Title }}</h1>
     <p class="subtitle">{{ site.Params.subtitle }}</p>
-    <a href="{{ "/noticias" | relURL }}" class="btn">Explorar</a>
+    <div class="hero-actions">
+      <a href="{{ "/noticias" | relURL }}" class="btn">Explorar noticias</a>
+      <a href="{{ "/bitacora" | relURL }}" class="btn btn-ghost">Ver Bitácora</a>
+    </div>
   </div>
   <div class="hero-scroll-cue"></div>
 </section>
@@ -18,8 +21,9 @@
 {{ $entrevistas := where site.RegularPages "Section" "entrevistas" }}
 
 <!-- NOTICIAS -->
-<section class="section reveal">
-  <h2 class="section-title">Noticias de sostenibilidad <a class="ver-todo" href="{{ "/noticias" | relURL }}">Ver todo →</a></h2>
+<section class="section section-noticias-home reveal">
+  <h2 class="section-title">Noticias <a class="ver-todo" href="{{ "/noticias" | relURL }}">Ver todo →</a></h2>
+  <p class="section-kicker">Lo más reciente sobre sostenibilidad e innovación en el campus.</p>
   {{ if $noticias }}
   <div class="grid grid-3">
     {{ range first 3 $noticias.ByDate.Reverse }}
@@ -27,15 +31,16 @@
     {{ end }}
   </div>
   {{ else }}
-    <p class="empty-state">Aún no hay noticias publicadas.</p>
+    <p class="empty-state">Todavía no hay noticias publicadas. Vuelve pronto.</p>
   {{ end }}
 </section>
 
 <!-- CURIOSIDADES -->
-<section class="section section-alt reveal">
+<section class="section section-alt section-curiosidades-home reveal">
   {{ partial "deco-leaf.html" "deco-tl" }}
   {{ partial "deco-leaf.html" "deco-br" }}
   <h2 class="section-title">Aprendizaje y curiosidades <a class="ver-todo" href="{{ "/curiosidades" | relURL }}">Ver todo →</a></h2>
+  <p class="section-kicker">Conceptos, datos y hábitos para entender la sostenibilidad todos los días.</p>
   {{ if $curiosidades }}
   <div class="grid grid-4">
     {{ range first 4 $curiosidades.ByDate.Reverse }}
@@ -47,21 +52,10 @@
   {{ end }}
 </section>
 
-<!-- PRACTICAS -->
-<section class="section reveal">
-  <h2 class="section-title">Prácticas y trabajo <a class="ver-todo" href="{{ "/practicas" | relURL }}">Ver todo →</a></h2>
-  {{ if $practicas }}
-    {{ range first 3 $practicas.ByDate.Reverse }}
-      {{ partial "card-practica.html" . }}
-    {{ end }}
-  {{ else }}
-    <p class="empty-state">Aún no hay ofertas publicadas.</p>
-  {{ end }}
-</section>
-
 <!-- INVESTIGACIONES -->
-<section class="section section-alt reveal">
+<section class="section section-investigaciones-home reveal">
   <h2 class="section-title">Investigaciones de la facultad <a class="ver-todo" href="{{ "/investigaciones" | relURL }}">Ver todo →</a></h2>
+  <p class="section-kicker">Ciencia aplicada, hecha por profesores y estudiantes del Tec.</p>
   {{ if $investigaciones }}
   <div class="grid grid-3">
     {{ range first 3 $investigaciones.ByDate.Reverse }}
@@ -74,8 +68,9 @@
 </section>
 
 <!-- ENTREVISTAS -->
-<section class="section reveal">
+<section class="section section-alt section-entrevistas-home reveal">
   <h2 class="section-title">Entrevistas <a class="ver-todo" href="{{ "/entrevistas" | relURL }}">Ver todo →</a></h2>
+  <p class="section-kicker">Voces del campus: profesores, investigadores y egresados.</p>
   {{ if $entrevistas }}
   <div class="grid grid-4">
     {{ range first 4 $entrevistas.ByDate.Reverse }}
@@ -84,6 +79,19 @@
   </div>
   {{ else }}
     <p class="empty-state">Aún no hay entrevistas publicadas.</p>
+  {{ end }}
+</section>
+
+<!-- PRACTICAS -->
+<section class="section section-practicas-home reveal">
+  <h2 class="section-title">Prácticas y oportunidades <a class="ver-todo" href="{{ "/practicas" | relURL }}">Ver todo →</a></h2>
+  <p class="section-kicker">Vacantes y prácticas profesionales relacionadas con sostenibilidad.</p>
+  {{ if $practicas }}
+    {{ range first 3 $practicas.ByDate.Reverse }}
+      {{ partial "card-practica.html" . }}
+    {{ end }}
+  {{ else }}
+    <p class="empty-state">Aún no hay ofertas publicadas.</p>
   {{ end }}
 </section>
 

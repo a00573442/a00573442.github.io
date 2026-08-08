@@ -9,16 +9,18 @@
       </div>
     </div>
     <div>
-      <h5>Mapa del sitio</h5>
-      {{ range site.Menus.main.ByWeight }}
-        <a href="{{ .URL | relURL }}">{{ .Name }}</a>
-      {{ end }}
-    </div>
-    <div>
       <h5>Secciones</h5>
       <a href="{{ "/noticias" | relURL }}">Noticias</a>
+      <a href="{{ "/curiosidades" | relURL }}">Aprendizaje</a>
       <a href="{{ "/investigaciones" | relURL }}">Investigaciones</a>
       <a href="{{ "/entrevistas" | relURL }}">Entrevistas</a>
+      <a href="{{ "/practicas" | relURL }}">Prácticas y trabajo</a>
+    </div>
+    <div>
+      <h5>Publicación</h5>
+      <a href="{{ "/bitacora" | relURL }}">Bitácora</a>
+      <a href="{{ "/about" | relURL }}">Acerca de</a>
+      <a href="{{ "/contact" | relURL }}">Contacto</a>
     </div>
     <div>
       <h5>Contacto</h5>
