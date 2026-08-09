@@ -10,15 +10,50 @@
 		
 		
 		
-			<lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Sat, 08 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/entrevistas/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Entrevista con Camila Ríos, egresada trabajando en política ambiental (contenido de demostración)</title>
+				<link>http://localhost:1313/entrevistas/entrevista-camila-rios-egresada/</link>
+				<pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/entrevistas/entrevista-camila-rios-egresada/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una entrevista de demostración generada con fines ilustrativos para el diseño del sitio. No representa a una persona real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Camila egresó de la carrera y, en este perfil de demostración, actualmente trabaja analizando política pública ambiental. Platicamos con ella sobre su transición de la ingeniería al sector público.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;¿Por qué decidiste moverte hacia la política ambiental después de estudiar ingeniería?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Me di cuenta de que muchas de las mejores soluciones técnicas nunca se implementan porque no existe el marco regulatorio adecuado. Quería estar del lado donde se toman esas decisiones.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Entrevista con el Dr. Carlos Ramírez</title>
 				<link>http://localhost:1313/entrevistas/ejemplo-entrevista/</link>
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/entrevistas/ejemplo-entrevista/</guid>
 				<description>&lt;p&gt;Conversamos con el Dr. Carlos Ramírez sobre el futuro de la ingeniería sustentable en México y el papel de los estudiantes del Tec en la transición energética.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Entrevista con Miguel Torres, consultor en sostenibilidad corporativa (contenido de demostración)</title>
+				<link>http://localhost:1313/entrevistas/entrevista-miguel-torres-profesional/</link>
+				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/entrevistas/entrevista-miguel-torres-profesional/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una entrevista de demostración generada con fines ilustrativos para el diseño del sitio. No representa a una persona real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Miguel trabaja, según este perfil de demostración, asesorando a empresas medianas en la construcción de sus estrategias de sostenibilidad. Hablamos con él sobre cómo ha cambiado la conversación empresarial en los últimos años.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;¿Cómo ha cambiado la actitud de las empresas frente a la sostenibilidad?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hace unos años era más un tema de imagen. Hoy, muchas empresas la ven como parte de su estrategia de riesgo: clientes, inversionistas y reguladores lo están exigiendo cada vez más.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Entrevista con la Dra. Lucía Farías, investigadora en energía (contenido de demostración)</title>
+				<link>http://localhost:1313/entrevistas/entrevista-dra-lucia-farias-investigadora/</link>
+				<pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/entrevistas/entrevista-dra-lucia-farias-investigadora/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una entrevista de demostración generada con fines ilustrativos para el diseño del sitio. No representa a una persona real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Conversamos con la Dra. Farías, un perfil de demostración de investigadora dedicada a sistemas de energía renovable, sobre el papel de la próxima generación de ingenieros en la transición energética.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;¿Qué la llevó a especializarse en energía renovable?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Empecé estudiando sistemas eléctricos convencionales, pero me di cuenta de que el futuro del sector estaba en resolver el problema de intermitencia de las renovables, no en seguir defendiendo los sistemas tradicionales.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Entrevista con Jorge Huerta, emprendedor ambiental (contenido de demostración)</title>
+				<link>http://localhost:1313/entrevistas/entrevista-jorge-huerta-emprendedor/</link>
+				<pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/entrevistas/entrevista-jorge-huerta-emprendedor/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una entrevista de demostración generada con fines ilustrativos para el diseño del sitio. No representa a una persona ni empresa real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jorge egresó de una carrera relacionada con sostenibilidad y, según este perfil de demostración, fundó una startup dedicada al compostaje urbano en zonas residenciales. Platicamos con él sobre los retos de emprender en sostenibilidad.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;¿Cómo nació la idea de tu startup?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Vivía en un edificio donde nadie separaba su basura orgánica. Empecé recolectando composta de mis vecinos como experimento personal, y de ahí creció.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Entrevista con Valeria Méndez, estudiante de IDS (contenido de demostración)</title>
+				<link>http://localhost:1313/entrevistas/entrevista-valeria-mendez-estudiante/</link>
+				<pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/entrevistas/entrevista-valeria-mendez-estudiante/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una entrevista de demostración generada con fines ilustrativos para el diseño del sitio. No representa a una persona real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Valeria cursa el séptimo semestre de Ingeniería en Desarrollo Sustentable y ha participado en varios proyectos de restauración ecológica dentro y fuera del campus. Conversamos con ella sobre su experiencia y su visión sobre el futuro de la carrera.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;¿Qué te motivó a estudiar esta carrera?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Desde preparatoria me interesaban los temas ambientales, pero quería algo que combinara eso con ingeniería real, no solo activismo. Esta carrera me permitió entender que la sostenibilidad también es matemáticas, procesos y números.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

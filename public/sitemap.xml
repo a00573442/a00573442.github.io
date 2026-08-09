@@ -4,7 +4,77 @@
   
     
       <url>
+            <loc>http://localhost:1313/</loc>
+            <lastmod>2026-08-09T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/practicas/practicante-agricultura-sostenible-raiz/</loc>
+            <lastmod>2026-08-09T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/practicas/</loc>
+            <lastmod>2026-08-09T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/entrevistas/entrevista-camila-rios-egresada/</loc>
+            <lastmod>2026-08-08T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/entrevistas/</loc>
+            <lastmod>2026-08-08T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/investigaciones/</loc>
+            <lastmod>2026-08-07T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/investigaciones/agricultura-sostenible-sensores/</loc>
+            <lastmod>2026-08-07T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/curiosidades/sabias-que-agricultura-regenerativa/</loc>
+            <lastmod>2026-08-06T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/curiosidades/</loc>
+            <lastmod>2026-08-06T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
             <loc>http://localhost:1313/about/</loc>
+            <lastmod>2026-08-05T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/noticias/energia-solar-balance/</loc>
             <lastmod>2026-08-05T00:00:00+00:00</lastmod>
           </url>
     
@@ -18,14 +88,14 @@
   
     
       <url>
-            <loc>http://localhost:1313/</loc>
+            <loc>http://localhost:1313/posts/mi-primer-articulo/</loc>
             <lastmod>2026-08-05T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/mi-primer-articulo/</loc>
+            <loc>http://localhost:1313/noticias/</loc>
             <lastmod>2026-08-05T00:00:00+00:00</lastmod>
           </url>
     
@@ -39,6 +109,13 @@
   
     
       <url>
+            <loc>http://localhost:1313/practicas/analista-datos-ambientales-climatica/</loc>
+            <lastmod>2026-08-02T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
             <loc>http://localhost:1313/curiosidades/economia-circular/</loc>
             <lastmod>2026-08-01T00:00:00+00:00</lastmod>
           </url>
@@ -47,13 +124,6 @@
     
       <url>
             <loc>http://localhost:1313/practicas/ejemplo-vacante/</loc>
-            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/curiosidades/</loc>
             <lastmod>2026-08-01T00:00:00+00:00</lastmod>
           </url>
     
@@ -81,29 +151,134 @@
   
     
       <url>
-            <loc>http://localhost:1313/entrevistas/</loc>
+            <loc>http://localhost:1313/entrevistas/entrevista-miguel-torres-profesional/</loc>
             <lastmod>2026-08-01T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/investigaciones/</loc>
-            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/investigaciones/materiales-construccion-bajo-carbono/</loc>
+            <lastmod>2026-07-31T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/noticias/</loc>
-            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/curiosidades/arboles-en-ciudades/</loc>
+            <lastmod>2026-07-30T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/practicas/</loc>
-            <lastmod>2026-08-01T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/noticias/agua-tratamiento-campus/</loc>
+            <lastmod>2026-07-29T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/practicas/pasante-agua-tratamiento-hidrosol/</loc>
+            <lastmod>2026-07-26T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/entrevistas/entrevista-dra-lucia-farias-investigadora/</loc>
+            <lastmod>2026-07-25T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/investigaciones/potencial-eolico-costero/</loc>
+            <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/curiosidades/que-es-hidrogeno-verde/</loc>
+            <lastmod>2026-07-23T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/noticias/biodiversidad-areas-verdes/</loc>
+            <lastmod>2026-07-22T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/practicas/coordinador-sostenibilidad-grupo-industrial/</loc>
+            <lastmod>2026-07-19T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/entrevistas/entrevista-jorge-huerta-emprendedor/</loc>
+            <lastmod>2026-07-18T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/investigaciones/tratamiento-agua-humedales-artificiales/</loc>
+            <lastmod>2026-07-17T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/curiosidades/como-funciona-panel-solar/</loc>
+            <lastmod>2026-07-16T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/noticias/economia-circular-cafeterias/</loc>
+            <lastmod>2026-07-15T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/practicas/analista-energia-renovable-verdetech/</loc>
+            <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/entrevistas/entrevista-valeria-mendez-estudiante/</loc>
+            <lastmod>2026-07-11T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/investigaciones/modelo-economia-circular-industria/</loc>
+            <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/curiosidades/huella-de-carbono/</loc>
+            <lastmod>2026-07-09T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/noticias/movilidad-sostenible-campus/</loc>
+            <lastmod>2026-07-08T00:00:00+00:00</lastmod>
           </url>
     
   

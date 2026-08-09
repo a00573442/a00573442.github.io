@@ -10,15 +10,50 @@
 		
 		
 		
-			<lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Wed, 05 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/noticias/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Balance del primer año de operación de los paneles solares del campus</title>
+				<link>http://localhost:1313/noticias/energia-solar-balance/</link>
+				<pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/noticias/energia-solar-balance/</guid>
+				<description>&lt;p&gt;A poco más de un año de la instalación de los primeros paneles solares en el campus, la coordinación de sostenibilidad presentó un balance preliminar de su desempeño. Según los datos compartidos, la generación acumulada se ha mantenido cercana a las proyecciones originales del proyecto, con variaciones estacionales esperadas por la época del año.&lt;/p&gt;&#xA;&lt;p&gt;El sistema ha servido también como recurso educativo: estudiantes de cursos de energía han utilizado los datos reales de generación para practicar el dimensionamiento de sistemas fotovoltaicos y comparar el desempeño teórico contra el real.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>El Tec instala nuevos paneles solares en el campus</title>
 				<link>http://localhost:1313/noticias/ejemplo-noticia/</link>
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/noticias/ejemplo-noticia/</guid>
 				<description>&lt;p&gt;El Tecnológico de Monterrey anunció la instalación de un nuevo sistema fotovoltaico en el campus, como parte de su estrategia de sostenibilidad institucional.&lt;/p&gt;&#xA;&lt;p&gt;El proyecto busca reducir la huella de carbono del campus y servir como caso de estudio para estudiantes de Ingeniería en Desarrollo Sustentable.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sistema de tratamiento de agua reduce el consumo en riego de áreas verdes</title>
+				<link>http://localhost:1313/noticias/agua-tratamiento-campus/</link>
+				<pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/noticias/agua-tratamiento-campus/</guid>
+				<description>&lt;p&gt;El campus reportó avances en su sistema de tratamiento y reúso de agua, el cual permite destinar agua tratada al riego de áreas verdes en lugar de utilizar agua potable para ese fin. La medida forma parte de una estrategia más amplia de gestión hídrica dentro de las instalaciones.&lt;/p&gt;&#xA;&lt;p&gt;De acuerdo con la información compartida por la coordinación de sostenibilidad, el sistema ha permitido reducir de forma notable el consumo de agua potable destinada a riego durante los meses de mayor calor.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Estudio interno documenta la biodiversidad de las áreas verdes del campus</title>
+				<link>http://localhost:1313/noticias/biodiversidad-areas-verdes/</link>
+				<pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/noticias/biodiversidad-areas-verdes/</guid>
+				<description>&lt;p&gt;Durante varios meses, un grupo de estudiantes realizó recorridos periódicos por las áreas verdes del campus para documentar la fauna presente en ellas. El registro incluyó más de 30 especies distintas entre aves, mariposas y otros polinizadores, lo que sorprendió incluso a quienes coordinaron el ejercicio.&lt;/p&gt;&#xA;&lt;p&gt;El objetivo del proyecto fue generar una línea base de biodiversidad urbana que sirva como referencia para futuras decisiones sobre el diseño de jardines y áreas verdes dentro del campus, privilegiando especies vegetales nativas que atraigan y sostengan a la fauna local.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Cafeterías del campus adoptan modelo de economía circular</title>
+				<link>http://localhost:1313/noticias/economia-circular-cafeterias/</link>
+				<pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/noticias/economia-circular-cafeterias/</guid>
+				<description>&lt;p&gt;Las cafeterías del campus comenzaron a operar bajo un modelo de economía circular que prioriza la reducción de residuos desde el origen. El programa piloto incluye compostaje de residuos orgánicos, eliminación gradual de empaques de un solo uso y un sistema de retorno de envases reutilizables para estudiantes y personal.&lt;/p&gt;&#xA;&lt;p&gt;De acuerdo con los primeros reportes, el compostaje generado se destinará a los jardines y áreas verdes del campus, cerrando el ciclo entre el consumo de alimentos y el mantenimiento de espacios naturales.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>El Tec impulsa un plan de movilidad sostenible dentro del campus</title>
+				<link>http://localhost:1313/noticias/movilidad-sostenible-campus/</link>
+				<pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/noticias/movilidad-sostenible-campus/</guid>
+				<description>&lt;p&gt;El campus anunció un plan integral de movilidad sostenible que busca reducir el uso de vehículos de combustión dentro de sus instalaciones. La iniciativa contempla la ampliación de rutas peatonales y ciclistas, así como la instalación de nuevos estacionamientos exclusivos para bicicletas y vehículos eléctricos.&lt;/p&gt;&#xA;&lt;p&gt;Según la coordinación de sostenibilidad del campus, el objetivo es que, hacia 2030, más de la mitad de los traslados internos se realicen a pie, en bicicleta o mediante transporte eléctrico compartido.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

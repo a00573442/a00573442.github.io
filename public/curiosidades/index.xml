@@ -10,15 +10,50 @@
 		
 		
 		
-			<lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 06 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/curiosidades/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>¿Sabías que...? La agricultura regenerativa puede revertir el daño al suelo</title>
+				<link>http://localhost:1313/curiosidades/sabias-que-agricultura-regenerativa/</link>
+				<pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/curiosidades/sabias-que-agricultura-regenerativa/</guid>
+				<description>&lt;p&gt;¿Sabías que existe un tipo de agricultura diseñada específicamente para revertir el daño causado por décadas de cultivo intensivo? Se llama agricultura regenerativa, y su principio central es simple: en lugar de solo &amp;ldquo;no dañar&amp;rdquo; el suelo, cada ciclo de cultivo debe dejarlo en mejores condiciones que como lo encontró.&lt;/p&gt;&#xA;&lt;p&gt;Entre sus prácticas más comunes están la rotación de cultivos, el uso de cultivos de cobertura, la reducción o eliminación de la labranza y la reintegración de materia orgánica al suelo.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>¿Qué es la economía circular?</title>
 				<link>http://localhost:1313/curiosidades/economia-circular/</link>
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/curiosidades/economia-circular/</guid>
 				<description>&lt;p&gt;La economía circular propone diseñar productos y procesos donde los materiales se reutilizan, reparan o reciclan continuamente, en lugar de desecharse tras un solo uso.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>¿Por qué son importantes los árboles en las ciudades?</title>
+				<link>http://localhost:1313/curiosidades/arboles-en-ciudades/</link>
+				<pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/curiosidades/arboles-en-ciudades/</guid>
+				<description>&lt;p&gt;Los árboles en zonas urbanas cumplen funciones que van mucho más allá de lo estético. Absorben dióxido de carbono, liberan oxígeno y capturan partículas contaminantes del aire, mejorando la calidad del aire que respiramos en las ciudades.&lt;/p&gt;&#xA;&lt;p&gt;También ayudan a reducir el llamado &amp;ldquo;efecto isla de calor urbano&amp;rdquo;: las zonas con más vegetación pueden registrar temperaturas varios grados más bajas que las zonas sin árboles, especialmente durante el verano.&lt;/p&gt;&#xA;&lt;p&gt;Estudios en distintas ciudades han encontrado además una relación entre la presencia de árboles y espacios verdes con una mejor salud mental de los habitantes, menores niveles de estrés y mayor actividad física al aire libre.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>¿Qué es el hidrógeno verde?</title>
+				<link>http://localhost:1313/curiosidades/que-es-hidrogeno-verde/</link>
+				<pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/curiosidades/que-es-hidrogeno-verde/</guid>
+				<description>&lt;p&gt;El hidrógeno verde se obtiene separando las moléculas de agua (H2O) en hidrógeno y oxígeno mediante un proceso llamado electrólisis, utilizando electricidad proveniente de fuentes renovables como la solar o la eólica.&lt;/p&gt;&#xA;&lt;p&gt;A diferencia del hidrógeno gris (producido a partir de gas natural, con emisiones significativas de CO2), el hidrógeno verde no genera emisiones directas de carbono durante su producción.&lt;/p&gt;&#xA;&lt;p&gt;Se considera una pieza clave para descarbonizar sectores donde la electrificación directa es difícil, como el transporte pesado, la aviación o ciertos procesos industriales que requieren altas temperaturas.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>¿Cómo funciona un panel solar?</title>
+				<link>http://localhost:1313/curiosidades/como-funciona-panel-solar/</link>
+				<pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/curiosidades/como-funciona-panel-solar/</guid>
+				<description>&lt;p&gt;Un panel solar está compuesto por celdas fotovoltaicas hechas principalmente de silicio. Cuando la luz del sol incide sobre estas celdas, libera electrones que generan una corriente eléctrica: esto se conoce como efecto fotovoltaico.&lt;/p&gt;&#xA;&lt;p&gt;Esa electricidad se produce en corriente directa (CD), por lo que un inversor la transforma en corriente alterna (CA), que es la que utilizamos en la mayoría de los aparatos eléctricos de nuestras casas y edificios.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>¿Qué es la huella de carbono?</title>
+				<link>http://localhost:1313/curiosidades/huella-de-carbono/</link>
+				<pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/curiosidades/huella-de-carbono/</guid>
+				<description>&lt;p&gt;La huella de carbono mide, en toneladas de CO2 equivalente, el total de emisiones de gases de efecto invernadero asociadas a una actividad, un producto o el estilo de vida de una persona.&lt;/p&gt;&#xA;&lt;p&gt;Se calcula sumando las emisiones directas (por ejemplo, quemar gasolina en un auto) y las emisiones indirectas (como la electricidad que consumimos, cuya generación también emite gases si proviene de fuentes fósiles).&lt;/p&gt;&#xA;&lt;p&gt;Reducir la huella de carbono personal o institucional implica identificar los focos de mayor emisión —transporte, energía, alimentación— y tomar decisiones concretas para disminuirlos, como optar por energías renovables o transporte compartido.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

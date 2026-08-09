@@ -10,15 +10,50 @@
 		
 		
 		
-			<lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Sun, 09 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/practicas/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Practicante de Agricultura Sostenible (oferta de demostración)</title>
+				<link>http://localhost:1313/practicas/practicante-agricultura-sostenible-raiz/</link>
+				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/practicas/practicante-agricultura-sostenible-raiz/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una oferta de práctica de demostración generada con fines ilustrativos para el diseño del sitio. No representa una vacante real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Descripción:&lt;/strong&gt; Apoyar en proyectos de agricultura regenerativa y agroecología en parcelas piloto de la región, incluyendo seguimiento de indicadores de salud del suelo.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Estudiante de Ingeniería en Desarrollo Sustentable, Agronomía o afín&lt;/li&gt;&#xA;&lt;li&gt;Disponibilidad para trabajo de campo&lt;/li&gt;&#xA;&lt;li&gt;Interés en sistemas agrícolas sostenibles&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Actividades:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Apoyo en la implementación de prácticas de agricultura regenerativa&lt;/li&gt;&#xA;&lt;li&gt;Registro de indicadores de salud del suelo&lt;/li&gt;&#xA;&lt;li&gt;Apoyo en talleres comunitarios sobre prácticas sostenibles&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Beneficios:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Analista de Datos Ambientales (oferta de demostración)</title>
+				<link>http://localhost:1313/practicas/analista-datos-ambientales-climatica/</link>
+				<pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/practicas/analista-datos-ambientales-climatica/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una oferta de práctica de demostración generada con fines ilustrativos para el diseño del sitio. No representa una vacante real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Descripción:&lt;/strong&gt; Apoyar en el procesamiento y visualización de datos ambientales (calidad del aire, consumo energético, emisiones) para clientes de distintos sectores.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Estudiante de últimos semestres de Ingeniería en Desarrollo Sustentable, Ciencia de Datos o afín&lt;/li&gt;&#xA;&lt;li&gt;Conocimientos básicos de Excel; se valora Python o Power BI&lt;/li&gt;&#xA;&lt;li&gt;Capacidad de trabajo remoto autónomo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Actividades:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Analista de Sostenibilidad Junior</title>
 				<link>http://localhost:1313/practicas/ejemplo-vacante/</link>
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/practicas/ejemplo-vacante/</guid>
 				<description>&lt;p&gt;Vacante de práctica profesional en el área de sostenibilidad corporativa.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Pasante de Ingeniería en Tratamiento de Agua (oferta de demostración)</title>
+				<link>http://localhost:1313/practicas/pasante-agua-tratamiento-hidrosol/</link>
+				<pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/practicas/pasante-agua-tratamiento-hidrosol/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una oferta de práctica de demostración generada con fines ilustrativos para el diseño del sitio. No representa una vacante real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Descripción:&lt;/strong&gt; Apoyar al equipo técnico en el monitoreo y optimización de plantas de tratamiento de agua residual para clientes industriales.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Estudiante de Ingeniería en Desarrollo Sustentable, Química o afín&lt;/li&gt;&#xA;&lt;li&gt;Interés en procesos de tratamiento de agua&lt;/li&gt;&#xA;&lt;li&gt;Disponibilidad para visitas a planta&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Actividades:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Toma de muestras y apoyo en análisis de calidad de agua&lt;/li&gt;&#xA;&lt;li&gt;Registro y seguimiento de parámetros operativos&lt;/li&gt;&#xA;&lt;li&gt;Apoyo en la elaboración de reportes técnicos&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Beneficios:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Coordinador de Sostenibilidad Junior (oferta de demostración)</title>
+				<link>http://localhost:1313/practicas/coordinador-sostenibilidad-grupo-industrial/</link>
+				<pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/practicas/coordinador-sostenibilidad-grupo-industrial/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una oferta de práctica de demostración generada con fines ilustrativos para el diseño del sitio. No representa una vacante real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Descripción:&lt;/strong&gt; Apoyar en la implementación de iniciativas de sostenibilidad dentro de las plantas industriales del grupo, incluyendo medición de indicadores ambientales y coordinación con distintas áreas.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Estudiante de Ingeniería en Desarrollo Sustentable, Industrial o afín&lt;/li&gt;&#xA;&lt;li&gt;Habilidades de comunicación y organización&lt;/li&gt;&#xA;&lt;li&gt;Disponibilidad de medio tiempo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Actividades:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Levantamiento de indicadores de consumo de agua y energía por planta&lt;/li&gt;&#xA;&lt;li&gt;Apoyo en la elaboración del reporte anual de sostenibilidad&lt;/li&gt;&#xA;&lt;li&gt;Coordinación con equipos operativos para implementar mejoras&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Beneficios:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Analista de Energía Renovable (oferta de demostración)</title>
+				<link>http://localhost:1313/practicas/analista-energia-renovable-verdetech/</link>
+				<pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/practicas/analista-energia-renovable-verdetech/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una oferta de práctica de demostración generada con fines ilustrativos para el diseño del sitio. No representa una vacante real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Descripción:&lt;/strong&gt; Apoyar en el análisis de proyectos de energía solar y eólica para clientes corporativos, incluyendo modelado financiero básico y análisis de factibilidad técnica.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Estudiante de últimos semestres de Ingeniería en Desarrollo Sustentable o carrera afín&lt;/li&gt;&#xA;&lt;li&gt;Conocimientos básicos de Excel avanzado&lt;/li&gt;&#xA;&lt;li&gt;Interés en energías renovables&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Actividades:&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

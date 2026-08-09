@@ -15,7 +15,7 @@
   <header class="bitacora-masthead">
     <div class="bitacora-masthead-top">
       <span>Edición No. {{ with $ed }}{{ .numero }}{{ else }}01{{ end }} &middot; {{ with $ed }}{{ .mes }} {{ .anio }}{{ else }}{{ now.Format "January 2006" }}{{ end }}</span>
-      <span>{{ now.Format "2 de January de 2006" }}</span>
+      <span>{{ $meses := slice "enero" "febrero" "marzo" "abril" "mayo" "junio" "julio" "agosto" "septiembre" "octubre" "noviembre" "diciembre" }}{{ now.Day }} de {{ index $meses (sub now.Month 1) }} de {{ now.Year }}</span>
     </div>
     <h1 class="bitacora-title">{{ site.Title }}</h1>
     <p class="bitacora-lema">{{ with $ed }}{{ .lema }}{{ else }}{{ site.Params.subtitle }}{{ end }}</p>
@@ -25,30 +25,43 @@
   <hr class="bitacora-rule-thick">
 
   {{ if $headline }}
-  <!-- HEADLINE -->
-  <section class="bitacora-headline">
-    <div class="bitacora-headline-text">
-      <span class="bitacora-kicker">{{ $headline.Params.categoria | default "Portada" }}</span>
-      <h2><a href="{{ $headline.RelPermalink }}">{{ $headline.Title }}</a></h2>
-      <p>{{ $headline.Params.resumen | default $headline.Summary }}</p>
-      <span class="bitacora-byline">Por {{ $headline.Params.autor | default "Redacción" }} &middot; {{ $headline.Date.Format "2 Jan 2006" }}</span>
+  <!-- HEADLINE + SIDEBAR (Editorial / Breves) -->
+  <section class="bitacora-lead-grid">
+    <div class="bitacora-headline">
+      <div class="bitacora-headline-text">
+        <span class="bitacora-kicker">{{ $headline.Params.categoria | default "Portada" }}</span>
+        <h2><a href="{{ $headline.RelPermalink }}">{{ $headline.Title }}</a></h2>
+        <p>{{ $headline.Params.resumen | default $headline.Summary }}</p>
+        <span class="bitacora-byline">Por {{ $headline.Params.autor | default "Redacción" }} &middot; {{ $headline.Date.Format "2 Jan 2006" }}</span>
+      </div>
+      {{ with $headline.Params.imagen }}
+      <div class="bitacora-headline-img" style="background-image:url('{{ . }}');"></div>
+      {{ end }}
     </div>
-    {{ with $headline.Params.imagen }}
-    <div class="bitacora-headline-img" style="background-image:url('{{ . }}');"></div>
-    {{ end }}
-  </section>
-  {{ end }}
 
-  {{ if $secundarias }}
-  <hr class="bitacora-rule-thin">
-  <section class="bitacora-secondary-grid">
-    {{ range first 2 $secundarias }}
-      <article class="bitacora-secondary">
-        <span class="bitacora-kicker">{{ .Params.categoria | default "Noticias" }}</span>
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <p>{{ .Params.resumen | default .Summary }}</p>
-      </article>
-    {{ end }}
+    <aside class="bitacora-sidebar">
+      {{ with $ed }}
+      {{ if .editorial_titulo }}
+      <div class="bitacora-sidebar-box bitacora-editorial">
+        <span class="bitacora-sidebar-label">Editorial</span>
+        <h3>{{ .editorial_titulo }}</h3>
+        <p>{{ .editorial_texto }}</p>
+      </div>
+      {{ end }}
+      {{ end }}
+
+      {{ if $secundarias }}
+      <div class="bitacora-sidebar-box bitacora-breves">
+        <span class="bitacora-sidebar-label">Breves</span>
+        {{ range first 3 $secundarias }}
+          <a class="bitacora-breve-item" href="{{ .RelPermalink }}">
+            <span class="bitacora-breve-title">{{ .Title }}</span>
+            <span class="bitacora-breve-cat">{{ .Params.categoria | default .Section }}</span>
+          </a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </aside>
   </section>
   {{ end }}
 

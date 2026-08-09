@@ -10,15 +10,50 @@
 		
 		
 		
-			<lastBuildDate>Wed, 05 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Sun, 09 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Practicante de Agricultura Sostenible (oferta de demostración)</title>
+				<link>http://localhost:1313/practicas/practicante-agricultura-sostenible-raiz/</link>
+				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/practicas/practicante-agricultura-sostenible-raiz/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una oferta de práctica de demostración generada con fines ilustrativos para el diseño del sitio. No representa una vacante real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Descripción:&lt;/strong&gt; Apoyar en proyectos de agricultura regenerativa y agroecología en parcelas piloto de la región, incluyendo seguimiento de indicadores de salud del suelo.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Estudiante de Ingeniería en Desarrollo Sustentable, Agronomía o afín&lt;/li&gt;&#xA;&lt;li&gt;Disponibilidad para trabajo de campo&lt;/li&gt;&#xA;&lt;li&gt;Interés en sistemas agrícolas sostenibles&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Actividades:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Apoyo en la implementación de prácticas de agricultura regenerativa&lt;/li&gt;&#xA;&lt;li&gt;Registro de indicadores de salud del suelo&lt;/li&gt;&#xA;&lt;li&gt;Apoyo en talleres comunitarios sobre prácticas sostenibles&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Beneficios:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Entrevista con Camila Ríos, egresada trabajando en política ambiental (contenido de demostración)</title>
+				<link>http://localhost:1313/entrevistas/entrevista-camila-rios-egresada/</link>
+				<pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/entrevistas/entrevista-camila-rios-egresada/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una entrevista de demostración generada con fines ilustrativos para el diseño del sitio. No representa a una persona real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Camila egresó de la carrera y, en este perfil de demostración, actualmente trabaja analizando política pública ambiental. Platicamos con ella sobre su transición de la ingeniería al sector público.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;¿Por qué decidiste moverte hacia la política ambiental después de estudiar ingeniería?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Me di cuenta de que muchas de las mejores soluciones técnicas nunca se implementan porque no existe el marco regulatorio adecuado. Quería estar del lado donde se toman esas decisiones.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sensores de bajo costo para agricultura de precisión sostenible</title>
+				<link>http://localhost:1313/investigaciones/agricultura-sostenible-sensores/</link>
+				<pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/investigaciones/agricultura-sostenible-sensores/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: este es contenido de demostración generado con fines ilustrativos para el diseño del sitio. No representa una investigación real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Este proyecto de demostración plantea el diseño conceptual de una red de sensores de bajo costo para monitorear humedad del suelo, temperatura y otros indicadores relevantes para pequeños y medianos productores agrícolas de la región.&lt;/p&gt;&#xA;&lt;p&gt;La propuesta hipotética busca que, con datos en tiempo real, los productores puedan ajustar el riego y la aplicación de fertilizantes de forma más precisa, reduciendo el desperdicio de ambos recursos.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>¿Sabías que...? La agricultura regenerativa puede revertir el daño al suelo</title>
+				<link>http://localhost:1313/curiosidades/sabias-que-agricultura-regenerativa/</link>
+				<pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/curiosidades/sabias-que-agricultura-regenerativa/</guid>
+				<description>&lt;p&gt;¿Sabías que existe un tipo de agricultura diseñada específicamente para revertir el daño causado por décadas de cultivo intensivo? Se llama agricultura regenerativa, y su principio central es simple: en lugar de solo &amp;ldquo;no dañar&amp;rdquo; el suelo, cada ciclo de cultivo debe dejarlo en mejores condiciones que como lo encontró.&lt;/p&gt;&#xA;&lt;p&gt;Entre sus prácticas más comunes están la rotación de cultivos, el uso de cultivos de cobertura, la reducción o eliminación de la labranza y la reintegración de materia orgánica al suelo.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Acerca de</title>
 				<link>http://localhost:1313/about/</link>
 				<pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/about/</guid>
 				<description>&lt;p&gt;El Semillero es el periódico digital de Ingeniería en Desarrollo Sustentable del Tecnológico de Monterrey. Cubrimos noticias, investigación e iniciativas relacionadas con sostenibilidad e innovación dentro y fuera del campus.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Balance del primer año de operación de los paneles solares del campus</title>
+				<link>http://localhost:1313/noticias/energia-solar-balance/</link>
+				<pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/noticias/energia-solar-balance/</guid>
+				<description>&lt;p&gt;A poco más de un año de la instalación de los primeros paneles solares en el campus, la coordinación de sostenibilidad presentó un balance preliminar de su desempeño. Según los datos compartidos, la generación acumulada se ha mantenido cercana a las proyecciones originales del proyecto, con variaciones estacionales esperadas por la época del año.&lt;/p&gt;&#xA;&lt;p&gt;El sistema ha servido también como recurso educativo: estudiantes de cursos de energía han utilizado los datos reales de generación para practicar el dimensionamiento de sistemas fotovoltaicos y comparar el desempeño teórico contra el real.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Contacto</title>
@@ -33,6 +68,13 @@
 				<pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/posts/mi-primer-articulo/</guid>
 				<description>&lt;p&gt;Este es el contenido de mi primer artículo de prueba.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Analista de Datos Ambientales (oferta de demostración)</title>
+				<link>http://localhost:1313/practicas/analista-datos-ambientales-climatica/</link>
+				<pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/practicas/analista-datos-ambientales-climatica/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una oferta de práctica de demostración generada con fines ilustrativos para el diseño del sitio. No representa una vacante real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Descripción:&lt;/strong&gt; Apoyar en el procesamiento y visualización de datos ambientales (calidad del aire, consumo energético, emisiones) para clientes de distintos sectores.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Estudiante de últimos semestres de Ingeniería en Desarrollo Sustentable, Ciencia de Datos o afín&lt;/li&gt;&#xA;&lt;li&gt;Conocimientos básicos de Excel; se valora Python o Power BI&lt;/li&gt;&#xA;&lt;li&gt;Capacidad de trabajo remoto autónomo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Actividades:&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>¿Qué es la economía circular?</title>
@@ -68,6 +110,139 @@
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/entrevistas/ejemplo-entrevista/</guid>
 				<description>&lt;p&gt;Conversamos con el Dr. Carlos Ramírez sobre el futuro de la ingeniería sustentable en México y el papel de los estudiantes del Tec en la transición energética.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Entrevista con Miguel Torres, consultor en sostenibilidad corporativa (contenido de demostración)</title>
+				<link>http://localhost:1313/entrevistas/entrevista-miguel-torres-profesional/</link>
+				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/entrevistas/entrevista-miguel-torres-profesional/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una entrevista de demostración generada con fines ilustrativos para el diseño del sitio. No representa a una persona real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Miguel trabaja, según este perfil de demostración, asesorando a empresas medianas en la construcción de sus estrategias de sostenibilidad. Hablamos con él sobre cómo ha cambiado la conversación empresarial en los últimos años.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;¿Cómo ha cambiado la actitud de las empresas frente a la sostenibilidad?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hace unos años era más un tema de imagen. Hoy, muchas empresas la ven como parte de su estrategia de riesgo: clientes, inversionistas y reguladores lo están exigiendo cada vez más.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Materiales de construcción de bajo carbono a partir de residuos agrícolas</title>
+				<link>http://localhost:1313/investigaciones/materiales-construccion-bajo-carbono/</link>
+				<pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/investigaciones/materiales-construccion-bajo-carbono/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: este es contenido de demostración generado con fines ilustrativos para el diseño del sitio. No representa una investigación real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Este proyecto conceptual explora el uso de residuos agrícolas comunes en la región —como rastrojo de maíz o cáscara de nuez— como insumo para paneles y bloques de construcción de bajo impacto ambiental, en comparación con materiales convencionales de alto consumo energético como el concreto.&lt;/p&gt;&#xA;&lt;p&gt;El planteamiento de demostración describe un proceso de prensado y compactación con aglutinantes naturales, evaluando de forma hipotética propiedades como resistencia estructural y aislamiento térmico.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>¿Por qué son importantes los árboles en las ciudades?</title>
+				<link>http://localhost:1313/curiosidades/arboles-en-ciudades/</link>
+				<pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/curiosidades/arboles-en-ciudades/</guid>
+				<description>&lt;p&gt;Los árboles en zonas urbanas cumplen funciones que van mucho más allá de lo estético. Absorben dióxido de carbono, liberan oxígeno y capturan partículas contaminantes del aire, mejorando la calidad del aire que respiramos en las ciudades.&lt;/p&gt;&#xA;&lt;p&gt;También ayudan a reducir el llamado &amp;ldquo;efecto isla de calor urbano&amp;rdquo;: las zonas con más vegetación pueden registrar temperaturas varios grados más bajas que las zonas sin árboles, especialmente durante el verano.&lt;/p&gt;&#xA;&lt;p&gt;Estudios en distintas ciudades han encontrado además una relación entre la presencia de árboles y espacios verdes con una mejor salud mental de los habitantes, menores niveles de estrés y mayor actividad física al aire libre.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sistema de tratamiento de agua reduce el consumo en riego de áreas verdes</title>
+				<link>http://localhost:1313/noticias/agua-tratamiento-campus/</link>
+				<pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/noticias/agua-tratamiento-campus/</guid>
+				<description>&lt;p&gt;El campus reportó avances en su sistema de tratamiento y reúso de agua, el cual permite destinar agua tratada al riego de áreas verdes en lugar de utilizar agua potable para ese fin. La medida forma parte de una estrategia más amplia de gestión hídrica dentro de las instalaciones.&lt;/p&gt;&#xA;&lt;p&gt;De acuerdo con la información compartida por la coordinación de sostenibilidad, el sistema ha permitido reducir de forma notable el consumo de agua potable destinada a riego durante los meses de mayor calor.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Pasante de Ingeniería en Tratamiento de Agua (oferta de demostración)</title>
+				<link>http://localhost:1313/practicas/pasante-agua-tratamiento-hidrosol/</link>
+				<pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/practicas/pasante-agua-tratamiento-hidrosol/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una oferta de práctica de demostración generada con fines ilustrativos para el diseño del sitio. No representa una vacante real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Descripción:&lt;/strong&gt; Apoyar al equipo técnico en el monitoreo y optimización de plantas de tratamiento de agua residual para clientes industriales.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Estudiante de Ingeniería en Desarrollo Sustentable, Química o afín&lt;/li&gt;&#xA;&lt;li&gt;Interés en procesos de tratamiento de agua&lt;/li&gt;&#xA;&lt;li&gt;Disponibilidad para visitas a planta&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Actividades:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Toma de muestras y apoyo en análisis de calidad de agua&lt;/li&gt;&#xA;&lt;li&gt;Registro y seguimiento de parámetros operativos&lt;/li&gt;&#xA;&lt;li&gt;Apoyo en la elaboración de reportes técnicos&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Beneficios:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Entrevista con la Dra. Lucía Farías, investigadora en energía (contenido de demostración)</title>
+				<link>http://localhost:1313/entrevistas/entrevista-dra-lucia-farias-investigadora/</link>
+				<pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/entrevistas/entrevista-dra-lucia-farias-investigadora/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una entrevista de demostración generada con fines ilustrativos para el diseño del sitio. No representa a una persona real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Conversamos con la Dra. Farías, un perfil de demostración de investigadora dedicada a sistemas de energía renovable, sobre el papel de la próxima generación de ingenieros en la transición energética.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;¿Qué la llevó a especializarse en energía renovable?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Empecé estudiando sistemas eléctricos convencionales, pero me di cuenta de que el futuro del sector estaba en resolver el problema de intermitencia de las renovables, no en seguir defendiendo los sistemas tradicionales.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Potencial eólico en zonas costeras del noreste mexicano</title>
+				<link>http://localhost:1313/investigaciones/potencial-eolico-costero/</link>
+				<pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/investigaciones/potencial-eolico-costero/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: este es contenido de demostración generado con fines ilustrativos para el diseño del sitio. No representa una investigación real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Este análisis de demostración plantea evaluar el potencial de generación eólica en zonas costeras del noreste de México, utilizando patrones históricos de viento como base para una estimación conceptual de factibilidad.&lt;/p&gt;&#xA;&lt;p&gt;El planteamiento hipotético identifica corredores con velocidades de viento sostenidas que podrían ser candidatos a estudios de factibilidad más detallados para parques eólicos de mediana escala.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>¿Qué es el hidrógeno verde?</title>
+				<link>http://localhost:1313/curiosidades/que-es-hidrogeno-verde/</link>
+				<pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/curiosidades/que-es-hidrogeno-verde/</guid>
+				<description>&lt;p&gt;El hidrógeno verde se obtiene separando las moléculas de agua (H2O) en hidrógeno y oxígeno mediante un proceso llamado electrólisis, utilizando electricidad proveniente de fuentes renovables como la solar o la eólica.&lt;/p&gt;&#xA;&lt;p&gt;A diferencia del hidrógeno gris (producido a partir de gas natural, con emisiones significativas de CO2), el hidrógeno verde no genera emisiones directas de carbono durante su producción.&lt;/p&gt;&#xA;&lt;p&gt;Se considera una pieza clave para descarbonizar sectores donde la electrificación directa es difícil, como el transporte pesado, la aviación o ciertos procesos industriales que requieren altas temperaturas.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Estudio interno documenta la biodiversidad de las áreas verdes del campus</title>
+				<link>http://localhost:1313/noticias/biodiversidad-areas-verdes/</link>
+				<pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/noticias/biodiversidad-areas-verdes/</guid>
+				<description>&lt;p&gt;Durante varios meses, un grupo de estudiantes realizó recorridos periódicos por las áreas verdes del campus para documentar la fauna presente en ellas. El registro incluyó más de 30 especies distintas entre aves, mariposas y otros polinizadores, lo que sorprendió incluso a quienes coordinaron el ejercicio.&lt;/p&gt;&#xA;&lt;p&gt;El objetivo del proyecto fue generar una línea base de biodiversidad urbana que sirva como referencia para futuras decisiones sobre el diseño de jardines y áreas verdes dentro del campus, privilegiando especies vegetales nativas que atraigan y sostengan a la fauna local.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Coordinador de Sostenibilidad Junior (oferta de demostración)</title>
+				<link>http://localhost:1313/practicas/coordinador-sostenibilidad-grupo-industrial/</link>
+				<pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/practicas/coordinador-sostenibilidad-grupo-industrial/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una oferta de práctica de demostración generada con fines ilustrativos para el diseño del sitio. No representa una vacante real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Descripción:&lt;/strong&gt; Apoyar en la implementación de iniciativas de sostenibilidad dentro de las plantas industriales del grupo, incluyendo medición de indicadores ambientales y coordinación con distintas áreas.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Estudiante de Ingeniería en Desarrollo Sustentable, Industrial o afín&lt;/li&gt;&#xA;&lt;li&gt;Habilidades de comunicación y organización&lt;/li&gt;&#xA;&lt;li&gt;Disponibilidad de medio tiempo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Actividades:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Levantamiento de indicadores de consumo de agua y energía por planta&lt;/li&gt;&#xA;&lt;li&gt;Apoyo en la elaboración del reporte anual de sostenibilidad&lt;/li&gt;&#xA;&lt;li&gt;Coordinación con equipos operativos para implementar mejoras&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Beneficios:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Entrevista con Jorge Huerta, emprendedor ambiental (contenido de demostración)</title>
+				<link>http://localhost:1313/entrevistas/entrevista-jorge-huerta-emprendedor/</link>
+				<pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/entrevistas/entrevista-jorge-huerta-emprendedor/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una entrevista de demostración generada con fines ilustrativos para el diseño del sitio. No representa a una persona ni empresa real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jorge egresó de una carrera relacionada con sostenibilidad y, según este perfil de demostración, fundó una startup dedicada al compostaje urbano en zonas residenciales. Platicamos con él sobre los retos de emprender en sostenibilidad.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;¿Cómo nació la idea de tu startup?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Vivía en un edificio donde nadie separaba su basura orgánica. Empecé recolectando composta de mis vecinos como experimento personal, y de ahí creció.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Humedales artificiales como alternativa de tratamiento de agua residual</title>
+				<link>http://localhost:1313/investigaciones/tratamiento-agua-humedales-artificiales/</link>
+				<pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/investigaciones/tratamiento-agua-humedales-artificiales/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: este es contenido de demostración generado con fines ilustrativos para el diseño del sitio. No representa una investigación real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Este proyecto de demostración plantea el uso de humedales artificiales —sistemas que imitan el funcionamiento de un humedal natural— como alternativa de bajo costo para el tratamiento de agua residual en comunidades pequeñas sin acceso a infraestructura de tratamiento convencional.&lt;/p&gt;&#xA;&lt;p&gt;El planteamiento hipotético describe un sistema de flujo subsuperficial con plantas específicas capaces de absorber y degradar contaminantes orgánicos presentes en el agua residual doméstica.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>¿Cómo funciona un panel solar?</title>
+				<link>http://localhost:1313/curiosidades/como-funciona-panel-solar/</link>
+				<pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/curiosidades/como-funciona-panel-solar/</guid>
+				<description>&lt;p&gt;Un panel solar está compuesto por celdas fotovoltaicas hechas principalmente de silicio. Cuando la luz del sol incide sobre estas celdas, libera electrones que generan una corriente eléctrica: esto se conoce como efecto fotovoltaico.&lt;/p&gt;&#xA;&lt;p&gt;Esa electricidad se produce en corriente directa (CD), por lo que un inversor la transforma en corriente alterna (CA), que es la que utilizamos en la mayoría de los aparatos eléctricos de nuestras casas y edificios.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Cafeterías del campus adoptan modelo de economía circular</title>
+				<link>http://localhost:1313/noticias/economia-circular-cafeterias/</link>
+				<pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/noticias/economia-circular-cafeterias/</guid>
+				<description>&lt;p&gt;Las cafeterías del campus comenzaron a operar bajo un modelo de economía circular que prioriza la reducción de residuos desde el origen. El programa piloto incluye compostaje de residuos orgánicos, eliminación gradual de empaques de un solo uso y un sistema de retorno de envases reutilizables para estudiantes y personal.&lt;/p&gt;&#xA;&lt;p&gt;De acuerdo con los primeros reportes, el compostaje generado se destinará a los jardines y áreas verdes del campus, cerrando el ciclo entre el consumo de alimentos y el mantenimiento de espacios naturales.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Analista de Energía Renovable (oferta de demostración)</title>
+				<link>http://localhost:1313/practicas/analista-energia-renovable-verdetech/</link>
+				<pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/practicas/analista-energia-renovable-verdetech/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una oferta de práctica de demostración generada con fines ilustrativos para el diseño del sitio. No representa una vacante real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Descripción:&lt;/strong&gt; Apoyar en el análisis de proyectos de energía solar y eólica para clientes corporativos, incluyendo modelado financiero básico y análisis de factibilidad técnica.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Requisitos:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Estudiante de últimos semestres de Ingeniería en Desarrollo Sustentable o carrera afín&lt;/li&gt;&#xA;&lt;li&gt;Conocimientos básicos de Excel avanzado&lt;/li&gt;&#xA;&lt;li&gt;Interés en energías renovables&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Actividades:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Entrevista con Valeria Méndez, estudiante de IDS (contenido de demostración)</title>
+				<link>http://localhost:1313/entrevistas/entrevista-valeria-mendez-estudiante/</link>
+				<pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/entrevistas/entrevista-valeria-mendez-estudiante/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: esta es una entrevista de demostración generada con fines ilustrativos para el diseño del sitio. No representa a una persona real.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Valeria cursa el séptimo semestre de Ingeniería en Desarrollo Sustentable y ha participado en varios proyectos de restauración ecológica dentro y fuera del campus. Conversamos con ella sobre su experiencia y su visión sobre el futuro de la carrera.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;¿Qué te motivó a estudiar esta carrera?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Desde preparatoria me interesaban los temas ambientales, pero quería algo que combinara eso con ingeniería real, no solo activismo. Esta carrera me permitió entender que la sostenibilidad también es matemáticas, procesos y números.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Modelos de economía circular aplicados a la industria manufacturera regional</title>
+				<link>http://localhost:1313/investigaciones/modelo-economia-circular-industria/</link>
+				<pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/investigaciones/modelo-economia-circular-industria/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Nota: este es contenido de demostración generado con fines ilustrativos para el diseño del sitio. No representa una investigación real del Tecnológico de Monterrey ni de ningún investigador existente.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Esta investigación de demostración explora cómo las empresas manufactureras de la región podrían incorporar principios de economía circular en sus procesos, particularmente en la reutilización de subproductos y la reducción de residuos industriales.&lt;/p&gt;&#xA;&lt;p&gt;El estudio hipotético plantea un marco de análisis basado en tres ejes: rediseño de producto, reutilización de materiales y logística inversa, aplicado a un caso ilustrativo de la industria metalmecánica regional.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>¿Qué es la huella de carbono?</title>
+				<link>http://localhost:1313/curiosidades/huella-de-carbono/</link>
+				<pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/curiosidades/huella-de-carbono/</guid>
+				<description>&lt;p&gt;La huella de carbono mide, en toneladas de CO2 equivalente, el total de emisiones de gases de efecto invernadero asociadas a una actividad, un producto o el estilo de vida de una persona.&lt;/p&gt;&#xA;&lt;p&gt;Se calcula sumando las emisiones directas (por ejemplo, quemar gasolina en un auto) y las emisiones indirectas (como la electricidad que consumimos, cuya generación también emite gases si proviene de fuentes fósiles).&lt;/p&gt;&#xA;&lt;p&gt;Reducir la huella de carbono personal o institucional implica identificar los focos de mayor emisión —transporte, energía, alimentación— y tomar decisiones concretas para disminuirlos, como optar por energías renovables o transporte compartido.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>El Tec impulsa un plan de movilidad sostenible dentro del campus</title>
+				<link>http://localhost:1313/noticias/movilidad-sostenible-campus/</link>
+				<pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/noticias/movilidad-sostenible-campus/</guid>
+				<description>&lt;p&gt;El campus anunció un plan integral de movilidad sostenible que busca reducir el uso de vehículos de combustión dentro de sus instalaciones. La iniciativa contempla la ampliación de rutas peatonales y ciclistas, así como la instalación de nuevos estacionamientos exclusivos para bicicletas y vehículos eléctricos.&lt;/p&gt;&#xA;&lt;p&gt;Según la coordinación de sostenibilidad del campus, el objetivo es que, hacia 2030, más de la mitad de los traslados internos se realicen a pie, en bicicleta o mediante transporte eléctrico compartido.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Bitácora</title>
