@@ -8,6 +8,8 @@
 
 {{ $headline := index ($noticias | default slice) 0 }}
 {{ $secundarias := after 1 $noticias }}
+{{ $secundaria1 := index ($secundarias | default slice) 0 }}
+{{ $noticiasResto := after 1 $secundarias }}
 
 <div class="bitacora page-offset" id="bitacora-print-area">
 
@@ -15,113 +17,131 @@
   <header class="bitacora-masthead">
     <div class="bitacora-masthead-top">
       <span>Edición No. {{ with $ed }}{{ .numero }}{{ else }}01{{ end }} &middot; {{ with $ed }}{{ .mes }} {{ .anio }}{{ else }}{{ now.Format "January 2006" }}{{ end }}</span>
+      <button class="bitacora-print-btn no-print" onclick="window.print()">Descargar edición PDF</button>
       <span>{{ $meses := slice "enero" "febrero" "marzo" "abril" "mayo" "junio" "julio" "agosto" "septiembre" "octubre" "noviembre" "diciembre" }}{{ now.Day }} de {{ index $meses (sub now.Month 1) }} de {{ now.Year }}</span>
     </div>
-    <h1 class="bitacora-title">{{ site.Title }}</h1>
-    <p class="bitacora-lema">{{ with $ed }}{{ .lema }}{{ else }}{{ site.Params.subtitle }}{{ end }}</p>
-    <button class="bitacora-print-btn no-print" onclick="window.print()">Descargar edición PDF</button>
+    <h1 class="bitacora-title">Bitácora</h1>
+    <p class="bitacora-lema">{{ with $ed }}{{ .lema }}{{ else }}El periódico de sostenibilidad del Tecnológico de Monterrey{{ end }}</p>
   </header>
 
   <hr class="bitacora-rule-thick">
 
   {{ if $headline }}
-  <!-- HEADLINE + SIDEBAR (Editorial / Breves) -->
-  <section class="bitacora-lead-grid">
-    <div class="bitacora-headline">
-      <div class="bitacora-headline-text">
-        <span class="bitacora-kicker">{{ $headline.Params.categoria | default "Portada" }}</span>
-        <h2><a href="{{ $headline.RelPermalink }}">{{ $headline.Title }}</a></h2>
-        <p>{{ $headline.Params.resumen | default $headline.Summary }}</p>
-        <span class="bitacora-byline">Por {{ $headline.Params.autor | default "Redacción" }} &middot; {{ $headline.Date.Format "2 Jan 2006" }}</span>
-      </div>
-      {{ with $headline.Params.imagen }}
-      <div class="bitacora-headline-img" style="background-image:url('{{ . }}');"></div>
-      {{ end }}
+  <!-- LEAD STORY -->
+  <article class="bitacora-lead">
+    <div>
+      <span class="bitacora-kicker">{{ $headline.Params.categoria | default "Portada" }}</span>
+      <h2><a href="{{ $headline.RelPermalink }}">{{ $headline.Title }}</a></h2>
+      {{ with $headline.Params.resumen }}<p class="bitacora-lead-dek">{{ . }}</p>{{ end }}
+      <span class="bitacora-byline">Por {{ $headline.Params.autor | default "Redacción" }} &middot; {{ $headline.Date.Format "2 de January, 2006" }}</span>
     </div>
-
-    <aside class="bitacora-sidebar">
-      {{ with $ed }}
-      {{ if .editorial_titulo }}
-      <div class="bitacora-sidebar-box bitacora-editorial">
-        <span class="bitacora-sidebar-label">Editorial</span>
-        <h3>{{ .editorial_titulo }}</h3>
-        <p>{{ .editorial_texto }}</p>
-      </div>
-      {{ end }}
-      {{ end }}
-
-      {{ if $secundarias }}
-      <div class="bitacora-sidebar-box bitacora-breves">
-        <span class="bitacora-sidebar-label">Breves</span>
-        {{ range first 3 $secundarias }}
-          <a class="bitacora-breve-item" href="{{ .RelPermalink }}">
-            <span class="bitacora-breve-title">{{ .Title }}</span>
-            <span class="bitacora-breve-cat">{{ .Params.categoria | default .Section }}</span>
-          </a>
-        {{ end }}
-      </div>
-      {{ end }}
-    </aside>
-  </section>
+    {{ with $headline.Params.imagen }}
+    <div class="bitacora-lead-img" style="background-image:url('{{ . }}');"></div>
+    {{ end }}
+  </article>
   {{ end }}
 
-  <hr class="bitacora-rule-thick">
+  <hr class="bitacora-rule-mid">
 
-  <!-- SECTION COLUMNS -->
-  <div class="bitacora-columns">
-
-    {{ if $curiosidades }}
-    <section class="bitacora-col">
-      <h4 class="bitacora-col-title">Aprendizaje</h4>
-      {{ range first 3 $curiosidades }}
-        <a class="bitacora-item" href="{{ .RelPermalink }}">
-          <span class="bitacora-item-icon">{{ .Params.icono | default "🌱" }}</span>
-          <span>{{ .Title }}</span>
-        </a>
-      {{ end }}
-    </section>
+  <!-- SECONDARY ROW: next noticia + Editorial -->
+  <section class="bitacora-secondary-row">
+    {{ if $secundaria1 }}
+    <div class="bitacora-secondary">
+      <span class="bitacora-kicker">{{ $secundaria1.Params.categoria | default "Noticias" }}</span>
+      {{ with $secundaria1.Params.imagen }}<div class="bitacora-secondary-img" style="background-image:url('{{ . }}');"></div>{{ end }}
+      <h3><a href="{{ $secundaria1.RelPermalink }}">{{ $secundaria1.Title }}</a></h3>
+      <p>{{ $secundaria1.Params.resumen | default $secundaria1.Summary }}</p>
+    </div>
     {{ end }}
 
-    {{ if $investigaciones }}
-    <section class="bitacora-col">
-      <h4 class="bitacora-col-title">Investigaciones</h4>
-      {{ range first 3 $investigaciones }}
-        <a class="bitacora-item" href="{{ .RelPermalink }}">
-          <span>{{ .Title }}</span>
-          <span class="bitacora-item-sub">{{ .Params.investigador }}</span>
-        </a>
-      {{ end }}
-    </section>
+    {{ with $ed }}
+    {{ if .editorial_titulo }}
+    <div class="bitacora-editorial">
+      <span class="bitacora-editorial-label">Editorial</span>
+      <h3>{{ .editorial_titulo }}</h3>
+      <p>{{ .editorial_texto }}</p>
+    </div>
     {{ end }}
-
-    {{ if $entrevistas }}
-    <section class="bitacora-col">
-      <h4 class="bitacora-col-title">Entrevistas</h4>
-      {{ range first 3 $entrevistas }}
-        <a class="bitacora-item" href="{{ .RelPermalink }}">
-          <span>{{ .Params.nombre | default .Title }}</span>
-          <span class="bitacora-item-sub">{{ .Params.cargo }}</span>
-        </a>
-      {{ end }}
-    </section>
     {{ end }}
+  </section>
 
-    {{ if $practicas }}
-    <section class="bitacora-col">
-      <h4 class="bitacora-col-title">Oportunidades</h4>
-      {{ range first 3 $practicas }}
-        <a class="bitacora-item" href="{{ .Params.link | default "#" }}">
-          <span>{{ .Params.puesto | default .Title }}</span>
-          <span class="bitacora-item-sub">{{ .Params.empresa }}</span>
-        </a>
-      {{ end }}
-    </section>
+  <!-- NOTICIAS (resto) -->
+  {{ if $noticiasResto }}
+  <hr class="bitacora-rule-mid">
+  <div class="bitacora-section-header"><span>Noticias</span></div>
+  <div class="bitacora-list cols-3">
+    {{ range first 3 $noticiasResto }}
+      <div class="bitacora-list-item">
+        <a class="bitacora-list-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="bitacora-list-meta">{{ .Params.categoria | default "Noticias" }} &middot; {{ .Date.Format "2 Jan" }}</span>
+        <p class="bitacora-list-excerpt">{{ .Params.resumen | default .Summary | truncate 110 }}</p>
+      </div>
     {{ end }}
-
   </div>
+  {{ end }}
+
+  <!-- APRENDIZAJE -->
+  {{ if $curiosidades }}
+  <hr class="bitacora-rule-mid">
+  <div class="bitacora-section-header"><span>Aprendizaje</span></div>
+  <div class="bitacora-list cols-3">
+    {{ range first 3 $curiosidades }}
+      <div class="bitacora-list-item">
+        <a class="bitacora-list-title" href="{{ .RelPermalink }}">{{ .Params.icono }} {{ .Title }}</a>
+        <span class="bitacora-list-meta">{{ .Date.Format "2 Jan" }}</span>
+        <p class="bitacora-list-excerpt">{{ .Params.resumen | default .Summary | truncate 110 }}</p>
+      </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <!-- INVESTIGACIONES -->
+  {{ if $investigaciones }}
+  <hr class="bitacora-rule-mid">
+  <div class="bitacora-section-header"><span>Investigaciones</span></div>
+  <div class="bitacora-list cols-2">
+    {{ range first 2 $investigaciones }}
+      <div class="bitacora-list-item">
+        <a class="bitacora-list-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="bitacora-list-meta">{{ .Params.investigador }}</span>
+        <p class="bitacora-list-excerpt">{{ .Params.resumen | default .Summary | truncate 130 }}</p>
+      </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <!-- ENTREVISTAS -->
+  {{ if $entrevistas }}
+  <hr class="bitacora-rule-mid">
+  <div class="bitacora-section-header"><span>Entrevistas</span></div>
+  <div class="bitacora-list cols-3">
+    {{ range first 3 $entrevistas }}
+      <div class="bitacora-list-item">
+        <a class="bitacora-list-title" href="{{ .RelPermalink }}">{{ .Params.nombre | default .Title }}</a>
+        <span class="bitacora-list-meta">{{ .Params.cargo }}</span>
+        <p class="bitacora-list-excerpt">&ldquo;{{ .Params.extracto }}&rdquo;</p>
+      </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <!-- PRÁCTICAS Y TRABAJO -->
+  {{ if $practicas }}
+  <hr class="bitacora-rule-mid">
+  <div class="bitacora-section-header"><span>Prácticas y trabajo</span></div>
+  <div class="bitacora-list cols-2">
+    {{ range first 2 $practicas }}
+      <div class="bitacora-list-item">
+        <a class="bitacora-list-title" href="{{ .RelPermalink }}">{{ .Params.puesto | default .Title }}</a>
+        <span class="bitacora-list-meta">{{ .Params.empresa }} &middot; {{ .Params.ubicacion }} &middot; {{ .Params.modalidad }}</span>
+        <p class="bitacora-list-excerpt">{{ .Summary | truncate 110 }}</p>
+      </div>
+    {{ end }}
+  </div>
+  {{ end }}
 
   <hr class="bitacora-rule-thin">
-  <p class="bitacora-footnote">{{ site.Title }} — Edición generada automáticamente a partir de las publicaciones más recientes de cada sección. Tecnológico de Monterrey, Ingeniería en Desarrollo Sustentable.</p>
+  <p class="bitacora-footnote">Bitácora se construye automáticamente con las publicaciones más recientes de cada sección de El Semillero.</p>
 
 </div>
 {{ end }}
