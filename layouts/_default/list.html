@@ -21,6 +21,10 @@
       <div class="grid grid-4">
         {{ range .RegularPages.ByDate.Reverse }}{{ partial "card-entrevista.html" . }}{{ end }}
       </div>
+    {{ else if eq .Section "anuncios" }}
+      <div class="grid grid-3">
+        {{ range .RegularPages.ByDate.Reverse }}{{ partial "card-anuncio.html" . }}{{ end }}
+      </div>
     {{ else }}
       <ul>
         {{ range .RegularPages.ByDate.Reverse }}

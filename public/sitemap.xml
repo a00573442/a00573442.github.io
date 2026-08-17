@@ -18,6 +18,13 @@
   
     
       <url>
+            <loc>http://localhost:1313/anuncios/</loc>
+            <lastmod>2026-08-17T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
             <loc>http://localhost:1313/curiosidades/</loc>
             <lastmod>2026-08-17T00:00:00+00:00</lastmod>
           </url>
@@ -26,6 +33,13 @@
     
       <url>
             <loc>http://localhost:1313/</loc>
+            <lastmod>2026-08-17T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/anuncios/anuncio-iron-maidens/content/anuncios/iron-maidens-deacero/</loc>
             <lastmod>2026-08-17T00:00:00+00:00</lastmod>
           </url>
     
@@ -53,14 +67,35 @@
   
     
       <url>
-            <loc>http://localhost:1313/practicas/practicante-agricultura-sostenible-raiz/</loc>
-            <lastmod>2026-08-09T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/anuncios/toma-de-protesta-life/</loc>
+            <lastmod>2026-08-11T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/anuncios/convocatoria-ashrae/</loc>
+            <lastmod>2026-08-10T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>http://localhost:1313/practicas/</loc>
+            <lastmod>2026-08-10T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/practicas/trainee-descarbonizacion-sincarbono/</loc>
+            <lastmod>2026-08-10T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/practicas/practicante-agricultura-sostenible-raiz/</loc>
             <lastmod>2026-08-09T00:00:00+00:00</lastmod>
           </url>
     
@@ -96,6 +131,13 @@
     
       <url>
             <loc>http://localhost:1313/about/</loc>
+            <lastmod>2026-08-05T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/anuncios/convocatoria-intercambio/</loc>
             <lastmod>2026-08-05T00:00:00+00:00</lastmod>
           </url>
     

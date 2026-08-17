@@ -1,4 +1,5 @@
 <div class="card-practica">
+  {{ with .Params.imagen }}<img src="{{ . }}" alt="{{ $.Params.empresa }}" class="practica-logo">{{ end }}
   <div class="info">
     <div class="empresa">{{ .Params.empresa }}</div>
     <h4>{{ .Params.puesto | default .Title }}</h4>

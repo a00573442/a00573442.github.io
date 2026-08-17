@@ -19,6 +19,7 @@
 {{ $practicas := where site.RegularPages "Section" "practicas" }}
 {{ $investigaciones := where site.RegularPages "Section" "investigaciones" }}
 {{ $entrevistas := where site.RegularPages "Section" "entrevistas" }}
+{{ $anuncios := where site.RegularPages "Section" "anuncios" }}
 
 <!-- NOTICIAS -->
 <section class="section section-noticias-home reveal">
@@ -66,6 +67,19 @@
     <p class="empty-state">Aún no hay investigaciones publicadas.</p>
   {{ end }}
 </section>
+
+<!-- ANUNCIOS -->
+{{ if $anuncios }}
+<section class="section reveal">
+  <h2 class="section-title">Anuncios <a class="ver-todo" href="{{ "/anuncios" | relURL }}">Ver todo →</a></h2>
+  <p class="section-kicker">Convocatorias, avisos y eventos de la comunidad IDS.</p>
+  <div class="grid grid-3">
+    {{ range first 3 $anuncios.ByDate.Reverse }}
+      {{ partial "card-anuncio.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
 
 <!-- ENTREVISTAS -->
 <section class="section section-alt section-entrevistas-home reveal">

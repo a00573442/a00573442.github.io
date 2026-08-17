@@ -1301,3 +1301,79 @@ body.section-entrevistas .card-entrevista .cargo { color: var(--section-accent);
   font-style: italic;
   padding: 2rem 0;
 }
+
+/* ===== CARDS: ANUNCIOS ===== */
+.card-anuncio {
+  background: var(--blanco);
+  border: 1px solid #e5e5e5;
+  border-left: 4px solid var(--dorado);
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 1.25rem 1.5rem;
+  transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
+}
+
+.anuncio-img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  display: block;
+  margin: -1.25rem -1.5rem 1rem -1.5rem;
+  width: calc(100% + 3rem);
+}
+
+.card-anuncio:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.07);
+}
+
+.anuncio-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.anuncio-tipo {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--azul-petroleo);
+}
+
+.anuncio-fecha { font-size: 0.72rem; color: #888; }
+
+.card-anuncio h3 { font-size: 1.1rem; margin: 0 0 0.5rem; color: var(--gris-oscuro); }
+.card-anuncio h3 a { color: inherit; text-decoration: none; }
+.card-anuncio h3 a:hover { color: var(--verde-bosque); }
+.card-anuncio p { font-size: 0.88rem; color: #555; margin-bottom: 0.6rem; }
+
+.anuncio-link {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--verde-bosque);
+  text-decoration: none;
+}
+
+.anuncio-link:hover { text-decoration: underline; }
+
+/* ===== BITÁCORA: miniatura para items de Anuncios ===== */
+.bitacora-list-img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 0.6rem;
+  border-radius: 0;
+}
+
+/* ===== PRÁCTICAS: logo/imagen de empresa ===== */
+.practica-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}

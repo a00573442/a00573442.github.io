@@ -1,0 +1,48 @@
+INSTRUCCIONES: NUEVO ANUNCIO "IRON MAIDENS x DEACERO"
+============================================================
+
+1. Descomprime el ZIP.
+
+2. Copia el archivo:
+     content/anuncios/iron-maidens-deacero.md
+   Pegalo en:
+     Documentos\periodico\content\anuncios\
+   (es un archivo nuevo, no reemplaza nada)
+
+============================================================
+COMO SUBIR TU IMAGEN (mismo proceso de siempre)
+============================================================
+
+1. Guarda tu imagen del cartel (la que me mandaste) en:
+     Documentos\periodico\static\images\anuncios\
+
+2. Nombrala exactamente:
+     iron-maidens-deacero.jpg
+   (si tu archivo es .png en vez de .jpg, usa esa extension y
+   ajusta el paso 3)
+
+3. El archivo .md que copiaste ya trae la linea conectada:
+     imagen = '/images/anuncios/iron-maidens-deacero.jpg'
+   Si tu imagen quedo con extension .png, abre el archivo .md en
+   VS Code y cambia esa linea a:
+     imagen = '/images/anuncios/iron-maidens-deacero.png'
+
+============================================================
+SOBRE EL REGISTRO (QR)
+============================================================
+El cartel usa un codigo QR para registrarse, y no pude leer la
+URL desde la imagen. El campo "link" del articulo se dejo vacio
+-- si tienes la liga de registro (Google Forms, Teams, etc.),
+abre el archivo .md y agregala asi:
+  link = 'https://tu-liga-de-registro-aqui'
+Si la dejas vacia, la tarjeta simplemente no muestra el boton
+"Mas informacion", pero el resto del anuncio se ve normal.
+
+============================================================
+PRUEBA Y SUBE
+============================================================
+1. hugo server -D
+2. Revisa portada, /anuncios/, y /bitacora/
+3. git add .
+   git commit -m "Agregar anuncio Iron Maidens x DeAcero"
+   git push

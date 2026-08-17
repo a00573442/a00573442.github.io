@@ -36,6 +36,12 @@ paginationPageSize = 12
   weight = 21
 
 [[menu.main]]
+  name = "Anuncios"
+  pageRef = "/anuncios"
+  parent = "contenido"
+  weight = 21.5
+
+[[menu.main]]
   name = "Aprendizaje"
   pageRef = "/curiosidades"
   parent = "contenido"

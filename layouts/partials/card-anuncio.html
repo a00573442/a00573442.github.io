@@ -1,0 +1,12 @@
+<div class="card-anuncio">
+    {{ with .Params.imagen }}<img src="{{ . }}" alt="{{ $.Title }}" class="anuncio-img">{{ end }}
+  <div class="anuncio-top">
+    <span class="anuncio-tipo">{{ .Params.tipo | default "Aviso" }}</span>
+    <span class="anuncio-fecha">{{ .Date.Format "2 Jan 2006" }}</span>
+  </div>
+  <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  <p>{{ .Params.resumen | default .Summary }}</p>
+  {{ with .Params.link }}
+  <a class="anuncio-link" href="{{ . }}" target="_blank" rel="noopener">Más información →</a>
+  {{ end }}
+</div>

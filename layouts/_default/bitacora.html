@@ -5,6 +5,7 @@
 {{ $investigaciones := (where site.RegularPages "Section" "investigaciones").ByDate.Reverse }}
 {{ $entrevistas := (where site.RegularPages "Section" "entrevistas").ByDate.Reverse }}
 {{ $practicas := (where site.RegularPages "Section" "practicas").ByDate.Reverse }}
+{{ $anuncios := (where site.RegularPages "Section" "anuncios").ByDate.Reverse }}
 
 {{ $headline := index ($noticias | default slice) 0 }}
 {{ $secundarias := after 1 $noticias }}
@@ -135,6 +136,22 @@
         <a class="bitacora-list-title" href="{{ .RelPermalink }}">{{ .Params.puesto | default .Title }}</a>
         <span class="bitacora-list-meta">{{ .Params.empresa }} &middot; {{ .Params.ubicacion }} &middot; {{ .Params.modalidad }}</span>
         <p class="bitacora-list-excerpt">{{ .Summary | truncate 110 }}</p>
+      </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <!-- ANUNCIOS -->
+  {{ if $anuncios }}
+  <hr class="bitacora-rule-mid">
+  <div class="bitacora-section-header"><span>Anuncios y convocatorias</span></div>
+  <div class="bitacora-list cols-3">
+    {{ range first 3 $anuncios }}
+      <div class="bitacora-list-item">
+        {{ with .Params.imagen }}<img src="{{ . }}" alt="{{ $.Title }}" class="bitacora-list-img">{{ end }}
+        <a class="bitacora-list-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="bitacora-list-meta">{{ .Params.tipo | default "Aviso" }} &middot; {{ .Date.Format "2 Jan" }}</span>
+        <p class="bitacora-list-excerpt">{{ .Params.resumen | default .Summary | truncate 110 }}</p>
       </div>
     {{ end }}
   </div>
