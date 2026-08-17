@@ -1,13 +1,11 @@
 +++
-title = '¿Cómo funciona un panel solar?'
-date = '2026-07-16'
+title = '¿Sabías que menos de 1 de cada 10 botellas o bolsas de plástico que usas realmente se recicla?'
+date = '2026-08-17'
 draft = false
-icono = '☀️'
-resumen = 'Los paneles solares convierten la luz del sol directamente en electricidad mediante un fenómeno llamado efecto fotovoltaico.'
+icono = '♻️'
+resumen = 'Menos del 10% del plástico mundial se recicla; gran parte termina en vertederos o contaminando el ambiente, desperdiciando además recursos fósiles.'
 +++
 
-Un panel solar está compuesto por celdas fotovoltaicas hechas principalmente de silicio. Cuando la luz del sol incide sobre estas celdas, libera electrones que generan una corriente eléctrica: esto se conoce como efecto fotovoltaico.
+Según el Programa de las Naciones Unidas para el Medio Ambiente (PNUMA), menos del 10% de todos los residuos plásticos generados en el mundo se recicla efectivamente (PNUMA, s.f.). 
 
-Esa electricidad se produce en corriente directa (CD), por lo que un inversor la transforma en corriente alterna (CA), que es la que utilizamos en la mayoría de los aparatos eléctricos de nuestras casas y edificios.
-
-La cantidad de energía que un panel puede generar depende de factores como la intensidad de la luz solar, el ángulo de inclinación del panel, la temperatura ambiente y la limpieza de su superficie.
+¿A dónde va el resto? Cerca del 46% termina en vertederos y un 22% se gestiona de forma inadecuada, es decir, se filtra directamente al ambiente: ríos, suelos y océanos. Esto es relevante porque más del 90% de todo el plástico que existe se fabrica a partir de combustibles fósiles, lo que significa que cada bolsa o botella que no se recicla representa también energía y recursos fósiles que ya no vuelven al ciclo productivo.
